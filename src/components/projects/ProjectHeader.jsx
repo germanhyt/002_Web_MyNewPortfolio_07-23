@@ -12,7 +12,7 @@ const ProjectSingleHeader = () => {
 
 	return (
 		projects
-			.filter(project => project.id == idProject)
+			.filter(project => project.id === idProject)
 			.map((p) => (
 				<div key={p.id}>
 					<p className="font-general-medium text-left text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7">
@@ -35,8 +35,9 @@ const ProjectSingleHeader = () => {
 							<FiExternalLink className="text-lg text-ternary-dark dark:text-ternary-light" />
 							<a
 								href={p.ProjectHeader.link}
-								target='_blank'
-								className="font-general-regular break-all ml-2 leading-none text-primary-dark dark:text-primary-light">
+								target="__blank"
+								className="font-general-regular break-all ml-2 leading-none text-primary-dark dark:text-primary-light"
+							>
 								Link de Proyecto
 							</a>
 						</div>

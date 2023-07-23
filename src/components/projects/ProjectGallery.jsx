@@ -13,10 +13,10 @@ const ProjectGallery = () => {
 
 	return (
 		projects
-			.filter(project => project.id == idProject)
+			.filter(project => project.id === idProject)
 			.map((p) => (
 				<div key={p.id} className="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
-					{
+					{	
 						p.ProjectImages.map((pp) => {
 							return (
 								<div key={pp.id} className="mb-10 sm:mb-0" >

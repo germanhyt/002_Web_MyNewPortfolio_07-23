@@ -13,7 +13,7 @@ const ProjectInfo = () => {
 
 	return (
 		projects
-			.filter((project => project.id == idProject))
+			.filter((project => project.id === idProject))
 			.map((p) => (
 				<div key={p.id} className="block sm:flex gap-0 sm:gap-10 mt-14">
 					<div className="w-full sm:w-1/3 text-left">
@@ -31,7 +31,7 @@ const ProjectInfo = () => {
 										>
 											<span>{info.title}: </span>
 											<a
-												href="#"
+												href="https://portfolio-web-ghyt.netlify.app/"
 												className={
 													info.title === 'Website' ||
 														info.title === 'Phone'
