@@ -24,7 +24,7 @@ export const projectsData = [
 		ProjectHeader: {
 			title: 'Proyecto Ecommerce - Comercial',
 			publishDate: 'Junio del 2022',
-			tags: 'UI/Frotend',
+			tags: 'Web',
 			link: 'http://shermandeploy.byethost7.com/PROYECTO_ECOMMERCE_PERSONAL_FAMILIA/',
 		},
 		ProjectImages: [
@@ -148,7 +148,7 @@ export const projectsData = [
 		ProjectHeader: {
 			title: 'Proyecto Ecommerce - Comercial',
 			publishDate: 'Febrero del 2022',
-			tags: 'UI/Frotend',
+			tags: 'Web',
 			link: 'http://shermandeploy.byethost7.com/Netflix_ultimate/movie.html',
 		},
 		ProjectImages: [
@@ -264,7 +264,7 @@ export const projectsData = [
 		ProjectHeader: {
 			title: 'Proyecto Portfolio 2022',
 			publishDate: 'Junio del 2022',
-			tags: 'UI/Frotend',
+			tags: 'Web',
 			link: 'https://portfolio-web-ghyt.netlify.app/',
 		},
 		ProjectImages: [
@@ -375,7 +375,7 @@ export const projectsData = [
 		ProjectHeader: {
 			title: 'Dashboard en Excel, Uso de Tablas de datos y tablas dinámicas',
 			publishDate: 'Junio del 2022',
-			tags: 'UI/Frotend',
+			tags: 'Data Analytics',
 			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/Edfx0_w21vpGvaXPARL4tlEBUfsMPrNDM7eDDGBi82Gipg?e=EqfqlM',
 		},
 		ProjectImages: [
@@ -483,7 +483,7 @@ export const projectsData = [
 		ProjectHeader: {
 			title: 'Filtro en Excel',
 			publishDate: 'Enero del 2023',
-			tags: 'UI/Frotend',
+			tags: 'Data Analytics',
 			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/ES2uWCY0SZJGsAcEU_02ptkBukpRaSUHQBm-OqeZohEXkw?e=Mbv72G',
 		},
 		ProjectImages: [
@@ -591,7 +591,7 @@ export const projectsData = [
 		ProjectHeader: {
 			title: 'Proyecto Api tipo REST',
 			publishDate: 'Enero del 2022',
-			tags: 'UI/Frotend',
+			tags: 'Web',
 			link: 'https://shermandeploy.000webhostapp.com/Backend_Apirest_PHP_users/index.php',
 		},
 		ProjectImages: [
