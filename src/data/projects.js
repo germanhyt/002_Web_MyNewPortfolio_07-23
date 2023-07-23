@@ -654,7 +654,7 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Solo se encuentra la interfaz de cómo es la api, próximamente se colocará el backend en un host para reaizar los requests correspondientes'
+						'Solo se encuentra la interfaz de cómo es la api, próximamente se colocará el backend en un host para realizar los requests correspondientes'
 				},
 
 
