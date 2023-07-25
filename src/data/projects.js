@@ -1676,6 +1676,122 @@ export const projectsData = [
 			],
 
 		}
+	}, {
+		id: 16,
+		title: 'Sistema de facturas con Macros - Excel',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690275348/Imagenes_Portafolio/proyecto_macros_1_fb0iyc.png',
+		ProjectHeader: {
+			title: 'Sistema de Facturación con Macros - Excel',
+			publishDate: 'Julio del 2023',
+			tags: 'Data Analytics',
+			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/Eecgl_mnkx1NpZXNFE0JZ7YB2F0ohtyKue9OZCd9sDIxDw?e=8iU1ga',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690275348/Imagenes_Portafolio/proyecto_macros_1_fb0iyc.png',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690275349/Imagenes_Portafolio/proyecto_macros_4_cfprkn.png',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690275348/Imagenes_Portafolio/proyecto_macros_3_e2vupr.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Crear un sistema que nos permita conocer más funcionalidades de Macros',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'EXCEL',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'El proyectos nos permite conocer como usar worksheets, workbooks, formularios y procedimientos con Macros.'
+				},
+				{
+					id: 2,
+					details:
+						'Con el sistema hecho podemos registrar facturas que cuenta con campos de cliente y producto, exportarlo como pdf o excel, calcular costos, gestionar stock, ver el historial de facturas y eliminar una factura realizada.'
+				}, {
+					id: 3,
+					details:
+						'Se cuenta con 2 hojas, una para la factura y otra de la lista de productos. Este último puede actualizarse luego de haber registrado productos. '
+				},
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
 	},
 
 
