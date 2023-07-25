@@ -1,8 +1,9 @@
 const selectOptions = [
 	'Web',
+	'Data Analytics',
 	'Mobile',
 	'IOT',
-	'Data Analytics',
+	'Certification'
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {
