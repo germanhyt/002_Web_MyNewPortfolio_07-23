@@ -75,7 +75,7 @@ const AppHeader = () => {
 							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
 						)}
 					</div>
-
+						
 					{/* Small screen hamburger menu */}
 					<div className="sm:hidden">
 						<button

@@ -70,7 +70,7 @@ export const projectsData = [
 			],
 			ObjectivesHeading: 'Objetivo',
 			ObjectivesDetails:
-				'Crear una aplicación web para el incremento de ventas de una empresa',
+				'Crear una aplicación web para el incremento de ventas de una microempresa. También poner en práctica los conceptos de programación, patrones de diseño, patrones de arquitectura y metdologías de proyectos.',
 			Technologies: [
 				{
 					title: 'Tecnologías usadas',
@@ -142,122 +142,6 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'Proyecto simulado de Netflix',
-		category: 'Web',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
-		ProjectHeader: {
-			title: 'Proyecto Ecommerce - Comercial',
-			publishDate: 'Febrero del 2022',
-			tags: 'Web',
-			link: 'http://shermandeploy.byethost7.com/Netflix_ultimate/movie.html',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Crear una aplicación web para el simular la web de Netflix',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'HTML',
-						'CSS',
-						'JavaScript',
-						'PHP',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Credenciales:'
-				},
-				{
-					id: 2,
-					details:
-						'- Rol cliente--> usuario: usuario@gmail.com y password: 123456'
-				},
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 3,
 		title: 'Proyecto Portfolio 2022',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-portfolio-react_pudr7k.webp',
@@ -310,7 +194,7 @@ export const projectsData = [
 			],
 			ObjectivesHeading: 'Objetivo',
 			ObjectivesDetails:
-				'Crear una página web para mostrar los distintos proyectos que se avanza',
+				'Crear una página web para mostrar los distintos proyectos que se avanzaron en el 2022.',
 			Technologies: [
 				{
 					title: 'Tecnologías usadas',
@@ -327,7 +211,7 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Proyectos de diferentes categorías'
+						'Este proyecto lista una cartera de proyectos que fue útil para postular a prácticas en 2022.'
 				},
 
 			],
@@ -368,15 +252,15 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 4,
-		title: 'Dashboard en Excel',
+		id: 3,
+		title: 'Dashboard de Análisis de Ventas en Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
 		ProjectHeader: {
 			title: 'Dashboard en Excel, Uso de Tablas de datos y tablas dinámicas',
 			publishDate: 'Junio del 2022',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/Edfx0_w21vpGvaXPARL4tlEBUfsMPrNDM7eDDGBi82Gipg?e=EqfqlM',
+			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/EYH2rtr_EPdAu0AtOtTOpL0BH_AVKo9hjQQPHW0cPonaAw?e=ywPAom',
 		},
 		ProjectImages: [
 			{
@@ -435,7 +319,12 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Analizamos dataset de ventas, luego realizamos una tabla de datos, tablas dinámicas y por último un dashboard integral.'
+						'Tenemos el dataset de ventas de una empresa X, la cual se realiza una limpieza de de data previamente, luego lo volcamos a Power Query para poder transformar datos y luego se carga como tabla de datos en nuestra hoja de Excel. Posteriomente mediante tablas dinámicas analizamos qué data nos serviran para la toma de decisiones, dado que se brinda datos precisos para su evaluación. En base a estas tablas dinámicas generamos los gráficos dinámicos que facilitan poder entender y explicar los resultados.'
+				},
+				{
+					id: 2,
+					details:
+						'EL proceso consta de la limpieza y tranformación de datos mediante Power Query, carga de datos a la hoja de excel como tabla de datos, realizar tablas dinámicas para analizar casos, generar gráficos que ayuden en la comprensión de resultados y que son usados en el dashboad, y por último el uso de segmentadores de datos que facilitan realiza filtros en las gráficas.'
 				},
 
 			],
@@ -476,8 +365,8 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 5,
-		title: 'Filtro en Excel',
+		id: 4,
+		title: 'Filtro en Excel con Macros',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
 		ProjectHeader: {
@@ -544,7 +433,12 @@ export const projectsData = [
 					id: 1,
 					details:
 						'Es preferible descargar el archivo, ya que el proyecto está hecho en Macros.'
+				}, {
+					id: 2,
+					details:
+						'Este proyecto permite buscar en base a datos de clientes, en base a DNI y Nombre de clientes. Se observa que se carga datos en una hoja de excel, luego se usa macros para realizar un análisis comparativo para filtrar los detalles de un cliente en específico.'
 				},
+
 
 			],
 			SocialSharingHeading: 'Compartir proyecto',
@@ -584,7 +478,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 6,
+		id: 5,
 		title: 'Proyecto Api tipo REST',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
@@ -637,7 +531,7 @@ export const projectsData = [
 			],
 			ObjectivesHeading: 'Objetivo',
 			ObjectivesDetails:
-				'Conocer las funcionalidades de una API a nivel de código',
+				'Conocer el funcionamiento de una API a nivel lógica de programación y código.',
 			Technologies: [
 				{
 					title: 'Tecnologías usadas',
@@ -654,7 +548,12 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Solo se encuentra la interfaz de cómo es la api, próximamente se colocará el backend en un host para realizar los requests correspondientes'
+						'En este caso la API es síncrona para cada requesta hay un response, este proyecto se realizó con PHP y se debió conocer el concepto del protocolo HTTP y sus verbos POST, GET, PU, PATCH, DELETE. En este caso se realizó para la entidad de usuario y sus características, que aparte de tener los request convecionales también tiene un sitema de seguridad para hacer estos request, en este caso se usa un sistema de autenticación para obtener resultados.',
+				},
+				{
+					id: 2,
+					details:
+						'Solo se encuentra la interfaz de cómo es la api, próximamente se colocará el backend en un host para realizar los requests correspondientes.'
 				},
 
 
@@ -696,7 +595,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 7,
+		id: 6,
 		title: 'Análisis de ventas de tienda Appol',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679589188/Imagenes_Portafolio/dashboard_appol_cla9xe.png',
@@ -704,7 +603,7 @@ export const projectsData = [
 			title: 'PowerBI-Análisis de ventas de tienda Appol',
 			publishDate: 'Febrero del 2023',
 			tags: 'PowerBI',
-			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EesE5roTP1ZEl2sWCpQL87kBAc-78p_0ySrr3UF8tnwqZA?e=dNUrUJ',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EnHn4zfncGBDs9M7C--4rEEBViOTZ8abGPHs2rOHGVxC-w?e=9fpwkt',
 		},
 		ProjectImages: [
 			{
@@ -754,7 +653,7 @@ export const projectsData = [
 				{
 					title: 'Tecnologías usadas',
 					techs: [
-						'Power',
+						'PowerBI',
 
 					],
 				},
@@ -805,7 +704,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 8,
+		id: 7,
 		title: 'Análisis de ventas de tienda Appol v2',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679589188/Imagenes_Portafolio/dashboard_appol_2_ofbdp2.png',
@@ -813,7 +712,7 @@ export const projectsData = [
 			title: 'PowerBI-Análisis de ventas de tienda Appol v2',
 			publishDate: 'Febrero del 2023',
 			tags: 'PowerBi',
-			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/ER1C520731ZEiEqVEbpiEKoB6LLvQShiqeYbBWNbOskkLA?e=WRHy1U',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EnHn4zfncGBDs9M7C--4rEEBViOTZ8abGPHs2rOHGVxC-w?e=v7P8Kr',
 		},
 		ProjectImages: [
 			{
@@ -913,7 +812,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 9,
+		id: 8,
 		title: 'Dashboard Análisis de ventas',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-3_g02j7d.png',
@@ -921,7 +820,7 @@ export const projectsData = [
 			title: 'Dashboard Análisis de ventas',
 			publishDate: 'Febrero del 2023',
 			tags: 'PowerBi',
-			link: 'http://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/ESnWkWkTZW1JopgafogR84IBqbfQEH5X8C8f5IlOzO5tnA',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EmLrPyJACGpDhq_0q8K-fGYBLE73dmyistY5TdRlPHjcIQ?e=vVAl46',
 		},
 		ProjectImages: [
 			{
@@ -1021,7 +920,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 10,
+		id: 9,
 		title: 'Dashboard de Producción',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-1_hzjwok.png',
@@ -1029,7 +928,7 @@ export const projectsData = [
 			title: 'Dashboard de Producción según prioridad y tipo de envío',
 			publishDate: 'Febrero del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EXWOKnlketBJqF0icFecNcEB_IqwNicdcSrBK2MvUZfhZg?e=SgUXZs',
+			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EXWOKnlketBJqF0icFecNcEB_IqwNicdcSrBK2MvUZfhZg?e=xMq4b6',
 		},
 		ProjectImages: [
 			{
@@ -1129,7 +1028,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 11,
+		id: 10,
 		title: 'Dashboard Análisis Escuelas por estado',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
@@ -1137,7 +1036,7 @@ export const projectsData = [
 			title: 'Dashboard Análisis Escuelas por estado',
 			publishDate: 'Febrero del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EQHzuc-IV6FFoNJEVnPu8M8BToDzNrLgM5-KBw2uTeQ-Vw?e=71VNyX',
+			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EQHzuc-IV6FFoNJEVnPu8M8BToDzNrLgM5-KBw2uTeQ-Vw?e=RbH4yj',
 		},
 		ProjectImages: [
 			{
@@ -1237,15 +1136,15 @@ export const projectsData = [
 
 		}
 	}, {
-		id: 12,
+		id: 11,
 		title: 'Dashboard de zonas con más daños por temblor',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-2_eztrvr.png',
 		ProjectHeader: {
-			title: 'Dashboard de zonas con màs daños por temblor',
+			title: 'Dashboard de zonas con más daños por temblor',
 			publishDate: 'Marzo del 2023',
 			tags: 'PowerBI',
-			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EcY-a-lI3elDo29j6x4RvjEB-qH3TMv1DDxk3UH3f9BN5A?e=IH17fN',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Er8n7PS1Z2dEn1jmgm8I6J4BnrsdXY4_OgKVKdRHDSliKA?e=ydeLfC',
 		},
 		ProjectImages: [
 			{
@@ -1344,7 +1243,7 @@ export const projectsData = [
 
 		}
 	}, {
-		id: 13,
+		id: 12,
 		title: 'Dashboard Análisis de ventas en Australia',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
@@ -1352,7 +1251,7 @@ export const projectsData = [
 			title: 'Dashboard Análisis de ventas en Australia',
 			publishDate: 'Marzo del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EUKTsB7SvblPnJbp51flGEgBtWOXf2mVmlpoyIjjCeMLIA?e=gfuJYm',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=K7mTPH',
 		},
 		ProjectImages: [
 			{
@@ -1451,7 +1350,7 @@ export const projectsData = [
 
 		}
 	}, {
-		id: 14,
+		id: 13,
 		title: 'Dispositivos MCU programables',
 		category: 'IOT',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679592218/Imagenes_Portafolio/proyecto_iot_kbnych.png',
@@ -1558,7 +1457,7 @@ export const projectsData = [
 
 		}
 	}, {
-		id: 15,
+		id: 14,
 		title: 'Sistema de gestión de ventas',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1685509091/sistema_ventas_ezi3nd.png',
@@ -1677,7 +1576,7 @@ export const projectsData = [
 
 		}
 	}, {
-		id: 16,
+		id: 15,
 		title: 'Sistema de facturas con Macros - Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690275348/Imagenes_Portafolio/proyecto_macros_1_fb0iyc.png',
@@ -1793,7 +1692,7 @@ export const projectsData = [
 
 		}
 	}, {
-		id: 17,
+		id: 16,
 		title: 'Certificaciones Obtenidas',
 		category: 'Certification',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690317596/Imagenes_Portafolio/certificaciones_cursos_ckoomk.png',
@@ -1863,6 +1762,248 @@ export const projectsData = [
 						'Mostrar la validez de los conocimientos obtenidos.'
 				},
 
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	}, {
+		id: 17,
+		title: 'Análisis de data de Producción',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690340554/Imagenes_Portafolio/proyecto2_dashboard_dbproducci%C3%B3n_idydbs.png',
+		ProjectHeader: {
+			title: 'Dashboard de Análisis de data de Producción',
+			publishDate: 'Julio del 2023',
+			tags: 'Data Analytics',
+			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/EaF30GMGjvdNkoJ9ZJn7UaoBNgDv8mQWVRpWEVi6tK4KiQ?e=qGz6Fo',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690340554/Imagenes_Portafolio/proyecto2_dashboard_dbproducci%C3%B3n_idydbs.png',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690340554/Imagenes_Portafolio/proyecto2_tabladedatos_dbproducci%C3%B3n_hangqf.png',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690340553/Imagenes_Portafolio/proyecto2_tablasdin%C3%A1micas_dbproducci%C3%B3n_ghh2yc.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Generar gráficos para ayudar a la mejora de toma de decisiones en la organización',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'Excel:',
+						'- Power Query',
+						'- Tabla de datos',
+						'- Tablas dinámicas',
+						'- Gráficos',
+						'- Macros',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Planteamiento del problema:'
+				},
+				{
+					id: 2,
+					details:
+						'Mediante el uso de tablas dinámicas, gráficos dinámicos y macros elabora un dashboard que se actualice consumiendo información del archivo BD_producción (se genera mensualmente).'
+				},
+				{
+					id: 3,
+					details:
+						'Indicadores y preguntas a resolver:  * Demanda por tipo de envío  * % de envíos entregados y devueltos según tipo de envío * nivel de pedidos entregados con éxitos * registro de la evolución de cantidad de pedidos según fecha * comparación en un grafico tipo torta de relación de prioridades este reporte es consumido por distintas área por lo que se debe poder personalizar la información que muestra el dashboard, se usarán segmentadores que permitan que se consulte la información correspondiente según la necesidad de cada persona.'
+				},
+				{
+					id: 3,
+					details:
+						'Nota: se tiene que tener un archivo que contenga el dashboard y hojas adicionales que usted considere necesario, ya que el archivo BD_Producción es una hoja de consumo que le proporciona un área cada mes y para que genere el gráfico desde la misma base tendría que insertarle las macros y generar los gráficos durante cada mes'
+				},
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	}, {
+		id: 18,
+		title: 'Proyecto simulado de Netflix',
+		category: 'Web',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+		ProjectHeader: {
+			title: 'Proyecto Ecommerce - Comercial',
+			publishDate: 'Febrero del 2022',
+			tags: 'Web',
+			link: 'http://shermandeploy.byethost7.com/Netflix_ultimate/movie.html',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Crear una aplicación web para el simular la web de Netflix',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'HTML',
+						'CSS',
+						'JavaScript',
+						'PHP',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Credenciales:'
+				},
+				{
+					id: 2,
+					details:
+						'- Rol cliente--> usuario: usuario@gmail.com y password: 123456'
+				},
 
 			],
 			SocialSharingHeading: 'Compartir proyecto',
