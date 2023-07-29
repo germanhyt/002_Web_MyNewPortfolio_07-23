@@ -596,224 +596,7 @@ export const projectsData = [
 	},
 	{
 		id: 6,
-		title: 'Análisis de ventas de tienda Appol',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679589188/Imagenes_Portafolio/dashboard_appol_cla9xe.png',
-		ProjectHeader: {
-			title: 'PowerBI-Análisis de ventas de tienda Appol',
-			publishDate: 'Febrero del 2023',
-			tags: 'PowerBI',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EnHn4zfncGBDs9M7C--4rEEBViOTZ8abGPHs2rOHGVxC-w?e=9fpwkt',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679589188/Imagenes_Portafolio/dashboard_appol_cla9xe.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679589188/Imagenes_Portafolio/dashboard_appol_cla9xe.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679589188/Imagenes_Portafolio/dashboard_appol_cla9xe.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar dataset para la toma de decisiones',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'PowerBI',
-
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Analizar dataset Appol para la toma de decisiones.'
-				},
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 7,
-		title: 'Análisis de ventas de tienda Appol v2',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679589188/Imagenes_Portafolio/dashboard_appol_2_ofbdp2.png',
-		ProjectHeader: {
-			title: 'PowerBI-Análisis de ventas de tienda Appol v2',
-			publishDate: 'Febrero del 2023',
-			tags: 'PowerBi',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EnHn4zfncGBDs9M7C--4rEEBViOTZ8abGPHs2rOHGVxC-w?e=v7P8Kr',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679589188/Imagenes_Portafolio/dashboard_appol_2_ofbdp2.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679589188/Imagenes_Portafolio/dashboard_appol_2_ofbdp2.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679589188/Imagenes_Portafolio/dashboard_appol_2_ofbdp2.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar dataset de Appol V2 para la toma de decisiones',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'PowerBI',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Analizar dataset de Appol V2 para la toma de decisiones.'
-				},
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 8,
-		title: 'Dashboard Análisis de ventas',
+		title: 'Dashboard Análisis de ventas en sucursales de una empresa',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-3_g02j7d.png',
 		ProjectHeader: {
@@ -826,17 +609,17 @@ export const projectsData = [
 			{
 				id: 1,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-3_g02j7d.png',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690656315/Imagenes_Portafolio/proyecto1_dashboard_sucursales_ventas_0_knupy2.png',
 			},
 			{
 				id: 2,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-3_g02j7d.png',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690656316/Imagenes_Portafolio/proyecto1_dashboard_sucursales_ventas_1_ksq3kn.png',
 			},
 			{
 				id: 3,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-3_g02j7d.png',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690656315/Imagenes_Portafolio/proyecto1_dashboard_sucursales_ventas_2_czi9us.png',
 			},
 		],
 		ProjectInfo: {
@@ -879,8 +662,300 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Analizar dataset de ventas para la toma de decisiones.'
+						'Este dataset muestra las ventas totales por fecha en diferentes sucursales de una empresa; la cantidad de clientes y nro de créditos por fecha; los pagos y adeudo que tienen estos clientes a la empresa por fecha.'
+				}, {
+					id: 1,
+					details:
+						'Observamos el dashboard del proyecto y decimos:'
+				}, {
+					id: 2,
+					details:
+						'- Tenemos un gráfico de líneas que mapea las Ventas Totales por mes y día, ventas que oscilan entre 0 y 300 mil dólares duante el año 2020.'
+				}, {
+					id: 3,
+					details:
+						'- Tenemos un gráfico de barras que mapea las ventas totales por sucursales de la orgaización.'
+				}, {
+					id: 4,
+					details:
+						'- Tenemos un segmentador por mes y sucursal que nos permite filtrar la data en los diferentes gráficos.'
+				}, {
+					id: 5,
+					details:
+						'- Tenemos un gráfico de líneas que muestra el % de adeudo o deudas de clientes a la empresas por mes.'
+				}, {
+					id: 6,
+					details:
+						'- Tenemos labels que muestran los clientes totales, ventas totales, pagos totales, porcentjae de pagos respecto al total de ventas, número de clientes con adeudo o deudas, y total de adeudo actual en los diferentes sucursales.'
+				}, {
+					id: 7,
+					details:
+						'Podemos concluir que:'
+				}, {
+					id: 8,
+					details:
+						'- En conclusión, es fundamental saber que el total de pagos que realizan los clientes a la empresa es mayor que el total de ventas estimado, por lo que el saldo es positivo y el riesgo de tener clientes con adeudo no es tan alto para impactar la rentabilidad.'
+				}
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
 				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	},
+	{
+		id: 7,
+		title: 'Dashboard Análisis Escuelas por estado',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
+		ProjectHeader: {
+			title: 'Dashboard Análisis Escuelas por estado',
+			publishDate: 'Febrero del 2023',
+			tags: 'Data Analytics',
+			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EQHzuc-IV6FFoNJEVnPu8M8BToDzNrLgM5-KBw2uTeQ-Vw?e=RbH4yj',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690663442/Imagenes_Portafolio/proyecto2_dashboard_estudiantes_0_d8tiul.png',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690663442/Imagenes_Portafolio/proyecto2_dashboard_estudiantes_1_zbok3b.png',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690663442/Imagenes_Portafolio/proyecto2_dashboard_estudiantes_2_mw0jlk.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Analizar dataset de Escuelas por estado para toma de decisiones',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'PowerBI',
+					],
+				}
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'En este dataset observamos las escuelas que existen en cada municipio y localidad en Mexico; las coordenadas donde quedan estas escuelas; y la cantidad de personal que se tiene por escuela.'
+				}, {
+					id: 2,
+					details:
+						'Observamos el dashboard del proyecto y decimos:'
+				}, {
+					id: 3,
+					details:
+						'- Tenemos la cantidad de escuelas por tipo de escuela, y también el total de escuelas dentro de país.'
+				}, {
+					id: 4,
+					details:
+						'- Tenemos filtros por entidad o localidad, municipio, y por el rango de personal que hay por escuela.'
+				}, {
+					id: 5,
+					details:
+						'- Tenemos un mapa para visualizar de forma dinámica en base a los filtros realizados.'
+				}, {
+					id: 6,
+					details:
+						'Podemos concluir que:'
+				}, {
+					id: 7,
+					details:
+						'- El análisis de este dashboard, nos permite conocer la cantidad apróximada de escuelas por locacalidad, municipio y tipo. Así también conocer la cantidad de personal ocupado que hay por escuela o en un conjunto de escuelas dentro de un municipio o localidad del país.'
+				},
+
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	},
+	{
+		id: 11,
+		title: 'Dashboard de zonas con más daños por temblor',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-2_eztrvr.png',
+		ProjectHeader: {
+			title: 'Dashboard de zonas con más daños por temblor',
+			publishDate: 'Marzo del 2023',
+			tags: 'PowerBI',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Er8n7PS1Z2dEn1jmgm8I6J4BnrsdXY4_OgKVKdRHDSliKA?e=ydeLfC',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690667823/Imagenes_Portafolio/proyecto3_dashboard_temblores_0_iu7isl.png',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690667823/Imagenes_Portafolio/proyecto3_dashboard_temblores_2_a2haz1.png',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690667823/Imagenes_Portafolio/proyecto3_dashboard_temblores_3_thniqf.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Analizar zonas con más daños por temblor para la toma de decisiones.',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'PowerBI',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Observamos el dashboard del proyecto y decimos:'
+				}, {
+					id: 2,
+					details:
+						'- Tenemos un heatmap o mapa de calor que nos indica las zonas de impacto de mayor intesidad y a su vez mayor frencuencia.'
+				}, {
+					id: 3,
+					details:
+						'- Tenemos un TreeMap o Mapa tipo Árbol que nos muestra el recuento de lugar de impacto.'
+				}, {
+					id: 4,
+					details:
+						'- Tenemos un filtro por tipo de daño que interacciona con el HeatMap y TreeMap, para mapear las zonas y el lugar donde más impacto tuvo el temblor.'
+				}, {
+					id: 5,
+					details:
+						'Podemos concluir que:'
+				}, {
+					id: 6,
+					details:
+						'- Las zona con mayores daños del sismo fue al sur de Mexico donde en su mayoría fueron perjudicados departamentos, casa, comercio y edificios.'
+				}
 
 			],
 			SocialSharingHeading: 'Compartir proyecto',
@@ -952,6 +1027,7 @@ export const projectsData = [
 			CompanyInfo: [
 				{
 					id: 1,
+					icon: <FiYoutube />,
 					title: 'Nombre',
 					details: 'Proyecto Personal',
 				},
@@ -1020,223 +1096,6 @@ export const projectsData = [
 				{
 					id: 5,
 					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 10,
-		title: 'Dashboard Análisis Escuelas por estado',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
-		ProjectHeader: {
-			title: 'Dashboard Análisis Escuelas por estado',
-			publishDate: 'Febrero del 2023',
-			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EQHzuc-IV6FFoNJEVnPu8M8BToDzNrLgM5-KBw2uTeQ-Vw?e=RbH4yj',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar dataset de Escuelas por estado para toma de decisiones',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'PowerBI',
-					],
-				}
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Analizar dataset de Escuelas por estado para toma de decisiones.'
-				},
-
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	}, {
-		id: 11,
-		title: 'Dashboard de zonas con más daños por temblor',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-2_eztrvr.png',
-		ProjectHeader: {
-			title: 'Dashboard de zonas con más daños por temblor',
-			publishDate: 'Marzo del 2023',
-			tags: 'PowerBI',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Er8n7PS1Z2dEn1jmgm8I6J4BnrsdXY4_OgKVKdRHDSliKA?e=ydeLfC',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-2_eztrvr.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-2_eztrvr.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-2_eztrvr.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar zonas con más daños por temblor para la toma de decisiones.',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'PowerBI',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Analizar zonas con más daños por temblor para la toma de decisiones.'
-				},
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
 					url: 'https://www.youtube.com/',
 				},
 			],
