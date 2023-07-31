@@ -276,7 +276,7 @@ export const projectsData = [
 		id: 3,
 		title: 'Dashboard Análisis de ventas en sucursales de una empresa',
 		category: 'Data Analytics',
-		img: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EmLrPyJACGpDhq_0q8K-fGYBLE73dmyistY5TdRlPHjcIQ?e=vVAl46',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690656315/Imagenes_Portafolio/proyecto1_dashboard_sucursales_ventas_0_knupy2.png',
 		ProjectHeader: {
 			title: 'Dashboard Análisis de ventas',
 			publishDate: 'Febrero del 2023',
