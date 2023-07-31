@@ -31,17 +31,17 @@ export const projectsData = [
 			{
 				id: 1,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-ecommerce-php_dv7gnt.webp',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690756431/Imagenes_Portafolio/proyecto_web_ecommerce_3_dfwfav.png',
 			},
 			{
 				id: 2,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-ecommerce-php_dv7gnt.webp',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690756431/Imagenes_Portafolio/proyecto_web_ecommerce_2_gox8gu.png',
 			},
 			{
 				id: 3,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-ecommerce-php_dv7gnt.webp',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690756431/Imagenes_Portafolio/proyecto_web_ecommerce_1_exhiwg.png',
 			},
 		],
 		ProjectInfo: {
@@ -89,7 +89,7 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Credenciales:'
+						'Credenciales de acceso:'
 				},
 				{
 					id: 2,
@@ -97,10 +97,31 @@ export const projectsData = [
 						'- Rol cliente --> usuario: user01@gmail.com y password: user01'
 				},
 				{
-					id: 3,
+					id: 4,
 					details:
 						'- Rol Admin --> usuario: admmin@gmail.com y password: admin'
 				},
+				{
+					id: 5,
+					details:
+						'Consideraciones de la aplicación web:'
+				},
+				{
+					id: 6,
+					details:
+						'- El proyecto de trabajó bajo programación estructurada, no se usó un patrón de arquitectura como el MVC por ejemplo. En su lugar fue de patrón libre sin embargo se puede diferenciar la división entre Interfaz, controlador y la conexión a base de datos.'
+				},
+				{
+					id: 7,
+					details:
+						'- Se tiene módulos de interfaz principal, un about-us, Productos, Contacto, órdenes y uno para filtrar productos. Se cuenta un login y registro para el ingreso, esto como prerequisito para el uso de carrito de compras.'
+				},
+				{
+					id: 8,
+					details:
+						'- Como se menciona en el objetivo es una aplicación web orientado al incremento de ventas en una empresa retail cuyos productos sean adecuados para la venta por internet. El modelo de este negocio es B2C dado que está orientado a vender al usuario final.'
+				},
+
 
 
 			],
@@ -211,7 +232,7 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Este proyecto lista una cartera de proyectos que fue útil para postular a prácticas en 2022.'
+						'Este proyecto lista una cartera de proyectos útiles que sirvió como práctica para postular a prácticas, fue creada como primera versión de mi portfolio, es una landing page pero imcompleta de acuerdo a mi criterio para mostrar los diferentes proyectos, por ello se creó el portfolio web versión para suplir y tener un portfolio más completo.'
 				},
 
 			],
@@ -253,349 +274,6 @@ export const projectsData = [
 	},
 	{
 		id: 3,
-		title: 'Dashboard de Análisis de Ventas en Excel',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
-		ProjectHeader: {
-			title: 'Dashboard en Excel, Uso de Tablas de datos y tablas dinámicas',
-			publishDate: 'Junio del 2022',
-			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/EYH2rtr_EPdAu0AtOtTOpL0BH_AVKo9hjQQPHW0cPonaAw?e=ywPAom',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar dataset de ventas para la mejora de toma de decisiones',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'Excel',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Tenemos el dataset de ventas de una empresa X, la cual se realiza una limpieza de de data previamente, luego lo volcamos a Power Query para poder transformar datos y luego se carga como tabla de datos en nuestra hoja de Excel. Posteriomente mediante tablas dinámicas analizamos qué data nos serviran para la toma de decisiones, dado que se brinda datos precisos para su evaluación. En base a estas tablas dinámicas generamos los gráficos dinámicos que facilitan poder entender y explicar los resultados.'
-				},
-				{
-					id: 2,
-					details:
-						'EL proceso consta de la limpieza y tranformación de datos mediante Power Query, carga de datos a la hoja de excel como tabla de datos, realizar tablas dinámicas para analizar casos, generar gráficos que ayuden en la comprensión de resultados y que son usados en el dashboad, y por último el uso de segmentadores de datos que facilitan realiza filtros en las gráficas.'
-				},
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 4,
-		title: 'Filtro en Excel con Macros',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
-		ProjectHeader: {
-			title: 'Filtro en Excel',
-			publishDate: 'Enero del 2023',
-			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/ES2uWCY0SZJGsAcEU_02ptkBukpRaSUHQBm-OqeZohEXkw?e=Mbv72G',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Realizar  filtro de datos para encontrar data de forma rápida',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'EXCEL',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Es preferible descargar el archivo, ya que el proyecto está hecho en Macros.'
-				}, {
-					id: 2,
-					details:
-						'Este proyecto permite buscar en base a datos de clientes, en base a DNI y Nombre de clientes. Se observa que se carga datos en una hoja de excel, luego se usa macros para realizar un análisis comparativo para filtrar los detalles de un cliente en específico.'
-				},
-
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 5,
-		title: 'Proyecto Api tipo REST',
-		category: 'Web',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
-		ProjectHeader: {
-			title: 'Proyecto Api tipo REST',
-			publishDate: 'Enero del 2022',
-			tags: 'Web',
-			link: 'https://shermandeploy.000webhostapp.com/Backend_Apirest_PHP_users/index.php',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Conocer el funcionamiento de una API a nivel lógica de programación y código.',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'HTML',
-						'CSS',
-						'JavaScript',
-						'PHP',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'En este caso la API es síncrona para cada requesta hay un response, este proyecto se realizó con PHP y se debió conocer el concepto del protocolo HTTP y sus verbos POST, GET, PU, PATCH, DELETE. En este caso se realizó para la entidad de usuario y sus características, que aparte de tener los request convecionales también tiene un sitema de seguridad para hacer estos request, en este caso se usa un sistema de autenticación para obtener resultados.',
-				},
-				{
-					id: 2,
-					details:
-						'Solo se encuentra la interfaz de cómo es la api, próximamente se colocará el backend en un host para realizar los requests correspondientes.'
-				},
-
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 6,
 		title: 'Dashboard Análisis de ventas en sucursales de una empresa',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-3_g02j7d.png',
@@ -734,7 +412,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 7,
+		id: 4,
 		title: 'Dashboard Análisis Escuelas por estado',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
@@ -867,7 +545,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 11,
+		id: 5,
 		title: 'Dashboard de zonas con más daños por temblor',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-2_eztrvr.png',
@@ -993,9 +671,145 @@ export const projectsData = [
 			],
 
 		}
+	}, {
+		id: 6,
+		title: 'Dashboard Análisis de ventas en Australia',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
+		ProjectHeader: {
+			title: 'Dashboard Análisis de ventas en Australia',
+			publishDate: 'Marzo del 2023',
+			tags: 'Data Analytics',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=K7mTPH',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_1_bqij9e.png',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_2_rfp2rk.png',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_3_vkler2.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Analizar las ventas de Australia para la toma de decisiones',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Este dataset nos permite conocer las ventas realizadas en Australia por categpria de producto, por fecha, por postcode. En base al postcode conocer el estado del país y el manager. A través de la categoría saber a los buyer person de los productos.'
+				},
+				{
+					id: 2,
+					details:
+						'Observamos el dashboard del proyecto y decimos: '
+				}, {
+					id: 3,
+					details:
+						'- Tenemos un gráfico de barras donde se analiza las ventas por estado (Australia), tipo de cadena(supply chain) y categoría(Category).'
+				}, {
+					id: 4,
+					details:
+						'- Tenemos un gráfico de columnas agrupadas y de líneas donde se analiza las ventas y beneficio bruto(Gross Profit) por fecha (FY Qtr).'
+				}, {
+					id: 5,
+					details:
+						'- Tenemos un gráfico de dispersión donde se analiza las ventas, porcentaje de utilidad y Beneficio bruto(Gross Profit) por Categoría(Category) y por fecha(FY Qrt).'
+				}, {
+					id: 6,
+					details:
+						'- Tenemos un gráfico circular que nos muestras las ventas por tipo de cadena (Supply Chain).'
+				}, {
+					id: 7,
+					details:
+						'Podemos concluir que:'
+				}, {
+					id: 8,
+					details:
+						'- Se realizó un análisis comparativo de las ventas realizadas por fecha, que junto al analisis del beneficio bruto obtenidas podemos concluir que los mayores beneficios se dieron en 2017Q1 y las menores en 2018Q1.'
+				},
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
 	},
 	{
-		id: 9,
+		id: 7,
 		title: 'Dashboard de Producción',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-1_hzjwok.png',
@@ -1063,113 +877,52 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Analizar dataset de Producción para la toma de decisiones'
-				},
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
+						'El dataset de Producción muestra la lista de órdenes realizadas en una fecha específica, con el costo total de ello, la prioridad de esta, el tipo de cliente, tipo de envío y el gerente que estuvo a carga de la orden. También la orden maneja el estado de Entregado o Devuelto y la razon en caso sea devuelto.'
+				}, {
 					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	}, {
-		id: 12,
-		title: 'Dashboard Análisis de ventas en Australia',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
-		ProjectHeader: {
-			title: 'Dashboard Análisis de ventas en Australia',
-			publishDate: 'Marzo del 2023',
-			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=K7mTPH',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar las ventas de Australia para la toma de decisiones',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
 					details:
-						'Análizar las ventas de Australia para la toma de decisiones.'
+						'Observamos el dashboard y decimos: '
+				}, {
+					id: 3,
+					details:
+						'- Tenemos un gráfico circular donde se analiza el costo de la orden(cantidad) por prioridad, la cual puede ser de alta, media y baja en base al tipo de orden.'
+				}, {
+					id: 4,
+					details:
+						'- Tenemos un segmentos que interactúa con los diferentes gráficos para filtrar las órdenes por prioridad.'
+				},
+				{
+					id: 4,
+					details:
+						'- Tenemos un gráfico de columnas agrupadas y líneas donde se analiza el costo de orden(cantidad) generados por gerente.'
+				}, {
+					id: 5,
+					details:
+						'- Tenemos una tabla donde se muestra la cantidad de dinero generado de los tipos de clientes por tipo de envío.'
+				}, {
+					id: 6,
+					details:
+						'- Tenemos un gráfico tipo medidor donde se analiza el costo por orden(cantidad) por prioridad Alta.'
+				}, {
+					id: 7,
+					details:
+						'- Tenemos un gráfico de barras donde se analiza el costo por orden(cantidad) por tipo de cliente.'
+				}, {
+					id: 8,
+					details:
+						'- Tenemos un gráfico de barras donde se analiza el costo por orden(cantidad) por año.'
+				}, {
+					id: 9,
+					details:
+						'- Tenemos labels que muestra la última fecha de envío y el estado(status) del ùltimo envío.'
+				}, {
+					id: 10,
+					details:
+						'Podemos concluir que:'
+				}, {
+					id: 11,
+					details:
+						'- Los datos mostrados en el dashboard indican una estabilidad en los costos por orden durante los años 2016-2019.'
 				},
 
 			],
@@ -1202,14 +955,13 @@ export const projectsData = [
 				{
 					id: 5,
 					name: 'Youtube',
-					icon: <FiYoutube />,
 					url: 'https://www.youtube.com/',
 				},
 			],
 
 		}
 	}, {
-		id: 13,
+		id: 8,
 		title: 'Dispositivos MCU programables',
 		category: 'IOT',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679592218/Imagenes_Portafolio/proyecto_iot_kbnych.png',
@@ -1262,7 +1014,7 @@ export const projectsData = [
 			],
 			ObjectivesHeading: 'Objetivo',
 			ObjectivesDetails:
-				'Analizar las ventas de Australia para la toma de decisiones',
+				'Conocer la funcionalidad de los dispositivos MCD y los módulos que maneja.',
 			Technologies: [
 				{
 					title: 'Tecnologías usadas',
@@ -1276,7 +1028,12 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Análizar las ventas de Australia para la toma de decisiones.'
+						'Observamos la funcionalidad del microcontrolador MCU y cómo interactúa con los dispositivos input con los ouput.'
+				},
+				{
+					id: 2,
+					details:
+						'Los dispositivos input que observamos son switch on-off, button, regulador numèrico, regulador tipo palanca. Como ouput vemos la lámpara, el LED y ventilador. Los dispositivos input del MCU manda señales analógicas o digitales dependiendo el tipo hacia los dispositivos ouput.'
 				},
 
 			],
@@ -1316,7 +1073,7 @@ export const projectsData = [
 
 		}
 	}, {
-		id: 14,
+		id: 9,
 		title: 'Sistema de gestión de ventas',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1685509091/sistema_ventas_ezi3nd.png',
@@ -1435,7 +1192,7 @@ export const projectsData = [
 
 		}
 	}, {
-		id: 15,
+		id: 10,
 		title: 'Sistema de facturas con Macros - Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690275348/Imagenes_Portafolio/proyecto_macros_1_fb0iyc.png',
@@ -1551,7 +1308,7 @@ export const projectsData = [
 
 		}
 	}, {
-		id: 16,
+		id: 11,
 		title: 'Certificaciones Obtenidas',
 		category: 'Certification',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690317596/Imagenes_Portafolio/certificaciones_cursos_ckoomk.png',
@@ -1659,7 +1416,7 @@ export const projectsData = [
 
 		}
 	}, {
-		id: 17,
+		id: 12,
 		title: 'Análisis de data de Producción',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690340554/Imagenes_Portafolio/proyecto2_dashboard_dbproducci%C3%B3n_idydbs.png',
@@ -1785,8 +1542,352 @@ export const projectsData = [
 			],
 
 		}
-	}, {
-		id: 18,
+	},
+	{
+		id: 13,
+		title: 'Dashboard de Análisis de Ventas en Excel',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
+		ProjectHeader: {
+			title: 'Dashboard en Excel, Uso de Tablas de datos y tablas dinámicas',
+			publishDate: 'Junio del 2022',
+			tags: 'Data Analytics',
+			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/EYH2rtr_EPdAu0AtOtTOpL0BH_AVKo9hjQQPHW0cPonaAw?e=ywPAom',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Analizar dataset de ventas para la mejora de toma de decisiones',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'Excel',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Tenemos el dataset de ventas de una empresa X, la cual se realiza una limpieza de de data previamente, luego lo volcamos a Power Query para poder transformar datos y luego se carga como tabla de datos en nuestra hoja de Excel. Posteriomente mediante tablas dinámicas analizamos qué data nos serviran para la toma de decisiones, dado que se brinda datos precisos para su evaluación. En base a estas tablas dinámicas generamos los gráficos dinámicos que facilitan poder entender y explicar los resultados.'
+				},
+				{
+					id: 2,
+					details:
+						'EL proceso consta de la limpieza y tranformación de datos mediante Power Query, carga de datos a la hoja de excel como tabla de datos, realizar tablas dinámicas para analizar casos, generar gráficos que ayuden en la comprensión de resultados y que son usados en el dashboad, y por último el uso de segmentadores de datos que facilitan realiza filtros en las gráficas.'
+				},
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	},
+	{
+		id: 14,
+		title: 'Filtro en Excel con Macros',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
+		ProjectHeader: {
+			title: 'Filtro en Excel',
+			publishDate: 'Enero del 2023',
+			tags: 'Data Analytics',
+			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/ES2uWCY0SZJGsAcEU_02ptkBukpRaSUHQBm-OqeZohEXkw?e=Mbv72G',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Realizar  filtro de datos para encontrar data de forma rápida',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'EXCEL',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Es preferible descargar el archivo, ya que el proyecto está hecho en Macros.'
+				}, {
+					id: 2,
+					details:
+						'Este proyecto permite buscar en base a datos de clientes, en base a DNI y Nombre de clientes. Se observa que se carga datos en una hoja de excel, luego se usa macros para realizar un análisis comparativo para filtrar los detalles de un cliente en específico.'
+				},
+
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	},
+	{
+		id: 16,
+		title: 'Proyecto Api tipo REST',
+		category: 'Web',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
+		ProjectHeader: {
+			title: 'Proyecto Api tipo REST',
+			publishDate: 'Enero del 2022',
+			tags: 'Web',
+			link: 'https://shermandeploy.000webhostapp.com/Backend_Apirest_PHP_users/index.php',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Conocer el funcionamiento de una API a nivel lógica de programación y código.',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'HTML',
+						'CSS',
+						'JavaScript',
+						'PHP',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'En este caso la API es síncrona para cada requesta hay un response, este proyecto se realizó con PHP y se debió conocer el concepto del protocolo HTTP y sus verbos POST, GET, PU, PATCH, DELETE. En este caso se realizó para la entidad de usuario y sus características, que aparte de tener los request convecionales también tiene un sitema de seguridad para hacer estos request, en este caso se usa un sistema de autenticación para obtener resultados.',
+				},
+				{
+					id: 2,
+					details:
+						'Solo se encuentra la interfaz de cómo es la api, próximamente se colocará el backend en un host para realizar los requests correspondientes.'
+				},
+
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	},
+	{
+		id: 17,
 		title: 'Proyecto simulado de Netflix',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',

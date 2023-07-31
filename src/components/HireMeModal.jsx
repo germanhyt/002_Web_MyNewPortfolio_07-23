@@ -5,10 +5,11 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	'Web',
+	'Data Analytics',
+	'Mobile',
+	'IOT',
+	'Certification'
 ];
 
 const HireMeModal = ({ onClose, onRequest }) => {
