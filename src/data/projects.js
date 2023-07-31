@@ -671,7 +671,8 @@ export const projectsData = [
 			],
 
 		}
-	}, {
+	}, 
+	{
 		id: 6,
 		title: 'Dashboard Análisis de ventas en Australia',
 		category: 'Data Analytics',
@@ -960,7 +961,8 @@ export const projectsData = [
 			],
 
 		}
-	}, {
+	}, 
+	{
 		id: 8,
 		title: 'Dispositivos MCU programables',
 		category: 'IOT',
@@ -1072,7 +1074,8 @@ export const projectsData = [
 			],
 
 		}
-	}, {
+	}, 
+	{
 		id: 9,
 		title: 'Sistema de gestión de ventas',
 		category: 'Web',
@@ -1191,7 +1194,8 @@ export const projectsData = [
 			],
 
 		}
-	}, {
+	}, 
+	{
 		id: 10,
 		title: 'Sistema de facturas con Macros - Excel',
 		category: 'Data Analytics',
@@ -1307,7 +1311,8 @@ export const projectsData = [
 			],
 
 		}
-	}, {
+	}, 
+	{
 		id: 11,
 		title: 'Certificaciones Obtenidas',
 		category: 'Certification',
@@ -1415,7 +1420,8 @@ export const projectsData = [
 			],
 
 		}
-	}, {
+	}, 
+	{
 		id: 12,
 		title: 'Análisis de data de Producción',
 		category: 'Data Analytics',
@@ -2002,6 +2008,5 @@ export const projectsData = [
 
 		}
 	},
-
 
 ];
