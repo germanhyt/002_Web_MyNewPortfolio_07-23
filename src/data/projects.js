@@ -274,6 +274,119 @@ export const projectsData = [
 	},
 	{
 		id: 3,
+		title: 'Dashboard de Análisis de Ventas en Excel',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
+		ProjectHeader: {
+			title: 'Dashboard en Excel, Uso de Tablas de datos y tablas dinámicas',
+			publishDate: 'Junio del 2022',
+			tags: 'Data Analytics',
+			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/EYH2rtr_EPdAu0AtOtTOpL0BH_AVKo9hjQQPHW0cPonaAw?e=ywPAom',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Analizar dataset de ventas para la mejora de toma de decisiones',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'Excel',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Tenemos el dataset de ventas de una empresa X, la cual se realiza una limpieza de de data previamente, luego lo volcamos a Power Query para poder transformar datos y luego se carga como tabla de datos en nuestra hoja de Excel. Posteriomente mediante tablas dinámicas analizamos qué data nos serviran para la toma de decisiones, dado que se brinda datos precisos para su evaluación. En base a estas tablas dinámicas generamos los gráficos dinámicos que facilitan poder entender y explicar los resultados.'
+				},
+				{
+					id: 2,
+					details:
+						'EL proceso consta de la limpieza y tranformación de datos mediante Power Query, carga de datos a la hoja de excel como tabla de datos, realizar tablas dinámicas para analizar casos, generar gráficos que ayuden en la comprensión de resultados y que son usados en el dashboad, y por último el uso de segmentadores de datos que facilitan realiza filtros en las gráficas.'
+				},
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	},
+	{
+		id: 4,
 		title: 'Dashboard Análisis de ventas en sucursales de una empresa',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690656315/Imagenes_Portafolio/proyecto1_dashboard_sucursales_ventas_0_knupy2.png',
@@ -412,7 +525,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Dashboard Análisis Escuelas por estado',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
@@ -545,7 +658,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Dashboard de zonas con más daños por temblor',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-2_eztrvr.png',
@@ -673,7 +786,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'Dashboard Análisis de ventas en Australia',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
@@ -810,7 +923,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 7,
+		id: 8,
 		title: 'Dashboard de Producción en Power BI',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-1_hzjwok.png',
@@ -963,7 +1076,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 8,
+		id: 9,
 		title: 'Dispositivos MCU programables',
 		category: 'IOT',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679592218/Imagenes_Portafolio/proyecto_iot_kbnych.png',
@@ -1076,7 +1189,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 9,
+		id: 10,
 		title: 'Sistema de gestión de ventas',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1685509091/sistema_ventas_ezi3nd.png',
@@ -1234,7 +1347,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 10,
+		id: 11,
 		title: 'Sistema de facturas con Macros - Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690275348/Imagenes_Portafolio/proyecto_macros_1_fb0iyc.png',
@@ -1351,7 +1464,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 11,
+		id: 12,
 		title: 'Certificaciones Obtenidas',
 		category: 'Certification',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690317596/Imagenes_Portafolio/certificaciones_cursos_ckoomk.png',
@@ -1460,7 +1573,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 12,
+		id: 13,
 		title: 'Análisis de data de Producción en Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690340554/Imagenes_Portafolio/proyecto2_dashboard_dbproducci%C3%B3n_idydbs.png',
@@ -1548,119 +1661,6 @@ export const projectsData = [
 					id: 3,
 					details:
 						'Nota: se tiene que tener un archivo que contenga el dashboard y hojas adicionales que usted considere necesario, ya que el archivo BD_Producción es una hoja de consumo que le proporciona un área cada mes y para que genere el gráfico desde la misma base tendría que insertarle las macros y generar los gráficos durante cada mes'
-				},
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 13,
-		title: 'Dashboard de Análisis de Ventas en Excel',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
-		ProjectHeader: {
-			title: 'Dashboard en Excel, Uso de Tablas de datos y tablas dinámicas',
-			publishDate: 'Junio del 2022',
-			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/EYH2rtr_EPdAu0AtOtTOpL0BH_AVKo9hjQQPHW0cPonaAw?e=ywPAom',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar dataset de ventas para la mejora de toma de decisiones',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'Excel',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Tenemos el dataset de ventas de una empresa X, la cual se realiza una limpieza de de data previamente, luego lo volcamos a Power Query para poder transformar datos y luego se carga como tabla de datos en nuestra hoja de Excel. Posteriomente mediante tablas dinámicas analizamos qué data nos serviran para la toma de decisiones, dado que se brinda datos precisos para su evaluación. En base a estas tablas dinámicas generamos los gráficos dinámicos que facilitan poder entender y explicar los resultados.'
-				},
-				{
-					id: 2,
-					details:
-						'EL proceso consta de la limpieza y tranformación de datos mediante Power Query, carga de datos a la hoja de excel como tabla de datos, realizar tablas dinámicas para analizar casos, generar gráficos que ayuden en la comprensión de resultados y que son usados en el dashboad, y por último el uso de segmentadores de datos que facilitan realiza filtros en las gráficas.'
 				},
 
 			],
@@ -1814,7 +1814,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 16,
+		id: 15,
 		title: 'Proyecto Api tipo REST',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
@@ -1931,7 +1931,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 17,
+		id: 16,
 		title: 'Proyecto simulado de Netflix',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
