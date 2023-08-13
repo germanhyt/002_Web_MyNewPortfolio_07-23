@@ -281,7 +281,7 @@ export const projectsData = [
 			title: 'Dashboard Análisis de ventas',
 			publishDate: 'Febrero del 2023',
 			tags: 'PowerBi',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EmLrPyJACGpDhq_0q8K-fGYBLE73dmyistY5TdRlPHjcIQ?e=vVAl46',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EmLrPyJACGpDhq_0q8K-fGYBLE73dmyistY5TdRlPHjcIQ?e=wZd0vb',
 		},
 		ProjectImages: [
 			{
@@ -420,7 +420,7 @@ export const projectsData = [
 			title: 'Dashboard Análisis Escuelas por estado',
 			publishDate: 'Febrero del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EQHzuc-IV6FFoNJEVnPu8M8BToDzNrLgM5-KBw2uTeQ-Vw?e=RbH4yj',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EqFYbljd1UBOuwBWc4mSqBIBgmwa7pL9fVmMnOq228m3nQ?e=eam7ec',
 		},
 		ProjectImages: [
 			{
@@ -553,7 +553,7 @@ export const projectsData = [
 			title: 'Dashboard de zonas con más daños por temblor',
 			publishDate: 'Marzo del 2023',
 			tags: 'PowerBI',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Er8n7PS1Z2dEn1jmgm8I6J4BnrsdXY4_OgKVKdRHDSliKA?e=ydeLfC',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Er8n7PS1Z2dEn1jmgm8I6J4BnrsdXY4_OgKVKdRHDSliKA?e=RXv4ax',
 		},
 		ProjectImages: [
 			{
@@ -671,7 +671,7 @@ export const projectsData = [
 			],
 
 		}
-	}, 
+	},
 	{
 		id: 6,
 		title: 'Dashboard Análisis de ventas en Australia',
@@ -681,7 +681,7 @@ export const projectsData = [
 			title: 'Dashboard Análisis de ventas en Australia',
 			publishDate: 'Marzo del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=K7mTPH',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=WWeYHc',
 		},
 		ProjectImages: [
 			{
@@ -811,14 +811,14 @@ export const projectsData = [
 	},
 	{
 		id: 7,
-		title: 'Dashboard de Producción',
+		title: 'Dashboard de Producción en Power BI',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-1_hzjwok.png',
 		ProjectHeader: {
 			title: 'Dashboard de Producción según prioridad y tipo de envío',
 			publishDate: 'Febrero del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:b:/g/personal/german_huaytalla_unmsm_edu_pe/EXWOKnlketBJqF0icFecNcEB_IqwNicdcSrBK2MvUZfhZg?e=xMq4b6',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Eh4v7-o3DG5FlngKtRGRLQEB65M4Hvlrzi5mBo6IV2b5KA?e=13RdXT',
 		},
 		ProjectImages: [
 			{
@@ -961,7 +961,7 @@ export const projectsData = [
 			],
 
 		}
-	}, 
+	},
 	{
 		id: 8,
 		title: 'Dispositivos MCU programables',
@@ -1074,7 +1074,7 @@ export const projectsData = [
 			],
 
 		}
-	}, 
+	},
 	{
 		id: 9,
 		title: 'Sistema de gestión de ventas',
@@ -1146,14 +1146,52 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Gestionar inventario de productos para optimizar el procesos de ventas.'
+						'Este proyecto nos permite conocer cómo funciona de forma básica un sistema de Gestión de ventas dentro de un modelo de negocio tradicional de compra y ventas de productos.'
+				}, {
+					id: 2,
+					details:
+						'Dentro del sistema podemos observar:'
 				},
 				{
-					id: 2,
+					id: 3,
+					details:
+						'- Un módulo de Ventas donde se puede procesar una nueva venta y se puede ver el hiprocesar una compra y ver el historial de compras.torial de estas.'
+				},
+				{
+					id: 4,
+					details:
+						'- Un módulo de Gestión de productos, donde se puede recuperar productos en caso eliminarlos.'
+				}, {
+					id: 5,
+					details:
+						'- Un módulo de Gestión de Categorías, donde se puede recuperar categorias en caso eliminarlos.'
+				},
+				{
+					id: 6,
+					details:
+						'- Un módulo de Gestión de clientes, donde se puede recuperar clientes en caso eliminarlos.'
+				},
+				{
+					id: 7,
+					details:
+						'- Un módulo de Gestión de Usuarios, donde se puede recuperar Usuarios en caso eliminarlos.'
+				},
+				{
+					id: 8,
+					details:
+						'- Un módulo de Configuración donde se puede actualizar datos.'
+				},
+				{
+					id: 9,
+					details:
+						'- Un módulo de Gestión de Compras o Adquisiciones, donde se puede procesar una compra y ver el historial de compras.'
+				},
+				{
+					id: 3,
 					details:
 						'Credenciales:'
 				}, {
-					id: 3,
+					id: 4,
 					details:
 						'- usuario: admin y pass: admin'
 				},
@@ -1194,7 +1232,7 @@ export const projectsData = [
 			],
 
 		}
-	}, 
+	},
 	{
 		id: 10,
 		title: 'Sistema de facturas con Macros - Excel',
@@ -1311,7 +1349,7 @@ export const projectsData = [
 			],
 
 		}
-	}, 
+	},
 	{
 		id: 11,
 		title: 'Certificaciones Obtenidas',
@@ -1420,10 +1458,10 @@ export const projectsData = [
 			],
 
 		}
-	}, 
+	},
 	{
 		id: 12,
-		title: 'Análisis de data de Producción',
+		title: 'Análisis de data de Producción en Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690340554/Imagenes_Portafolio/proyecto2_dashboard_dbproducci%C3%B3n_idydbs.png',
 		ProjectHeader: {
@@ -2008,5 +2046,5 @@ export const projectsData = [
 
 		}
 	},
-	
+
 ];
