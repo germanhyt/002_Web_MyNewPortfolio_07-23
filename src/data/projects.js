@@ -1784,7 +1784,7 @@ export const projectsData = [
 			title: 'Proyecto Api tipo REST',
 			publishDate: 'Enero del 2022',
 			tags: 'Web',
-			link: 'https://shermandeploy.000webhostapp.com/Backend_Apirest_PHP_users/index.php',
+			link: 'http://shermandeploy.byethost7.com/Backend_Apirest_PHP_users/users?page=1',
 		},
 		ProjectImages: [
 			{
@@ -2008,5 +2008,5 @@ export const projectsData = [
 
 		}
 	},
-
+	
 ];
