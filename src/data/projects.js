@@ -2181,7 +2181,7 @@ export const projectsData = [
 			title: 'Proyecto Ecommerce - Suplementos',
 			publishDate: 'Julio del 2023',
 			tags: 'Web',
-			link: 'https://app-suplementos.netlify.app',
+			link: 'https://app-react-exercises.netlify.app/',
 		},
 		ProjectImages: [
 			{
