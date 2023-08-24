@@ -1609,7 +1609,7 @@ export const projectsData = [
 				{
 					id: 6,
 					details:
-						'- El proyecto de trabajó bajo programación estructurada, no se usó un patrón de arquitectura como el MVC por ejemplo. En su lugar fue de patrón libre sin embargo se puede diferenciar la división entre Interfaz, controlador y la conexión a base de datos.'
+						'- El proyecto se trabajó bajo programación estructurada, no se usó un patrón de arquitectura como el MVC por ejemplo. En su lugar fue de patrón libre sin embargo se puede diferenciar la división entre Interfaz, controlador y la conexión a base de datos.'
 				},
 				{
 					id: 7,
@@ -2125,15 +2125,132 @@ export const projectsData = [
 						'Como se menciona en el objetivo es una aplicación web orientado al incremento de ventas en una empresa retail cuyos productos sean adecuados para la venta por internet. El modelo de este negocio es B2C dado que está orientado a vender al usuario final.'
 				},
 				{
-					id: 2,
+					id: 3,
 					details:
 						'Credenciales:'
 				},
 				{
-					id: 3,
+					id: 4,
 					details:
 						'- Es posible registrarse y loguearse para realizar compras.'
 				},
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	},
+	{
+		id: 18,
+		title: 'Proyecto Ejercicios React desde básico a Avanzado',
+		category: 'Web',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692836312/Imagenes_Portafolio/app-ejercicios-react-1_fzpdrw.png',
+		ProjectHeader: {
+			title: 'Proyecto Ecommerce - Suplementos',
+			publishDate: 'Julio del 2023',
+			tags: 'Web',
+			link: 'https://app-suplementos.netlify.app',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692836312/Imagenes_Portafolio/app-ejercicios-react-2_cxxmjj.png',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692836311/Imagenes_Portafolio/app-ejercicios-react-3_hrkujh.png',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692836312/Imagenes_Portafolio/app-ejercicios-react-1_fzpdrw.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'App para practicar react desde básico a Avanzado',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'HTML',
+						'CSS',
+						'JavaScript',
+						'PHP',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Esta app se realizó para practicar react desde los conceptos básicos a avanzado, pequeños proyectos que nos permitiràn realizar un proyecto má grande.'
+				},
+				{
+					id: 2,
+					details:
+						'Hasta el momento estamos practicando los temas de render, virtual DOM, programación estructurada, programación orientada a objetos, props, hooks (useState, useEffect), mètodos más comunes(map, find, filter, includes), spreadOperator'
+				},
+				
 
 			],
 			SocialSharingHeading: 'Compartir proyecto',
