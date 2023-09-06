@@ -1,11 +1,3 @@
-// Import images
-// import WebImage1 from '../images/web-project-1.jpg';
-// import WebImage2 from '../images/web-project-2.jpg';
-// import MobileImage1 from '../images/mobile-project-1.jpg';
-// import MobileImage2 from '../images/mobile-project-2.jpg';
-// import UIImage1 from '../images/ui-project-1.jpg';
-// import UIImage2 from '../images/ui-project-2.jpg';
-// Import icons
 import {
 	FiFacebook,
 	FiInstagram,
@@ -270,404 +262,6 @@ export const projectsData = [
 	},
 	{
 		id: 3,
-		title: 'Dashboard Análisis Escuelas por estado',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
-		ProjectHeader: {
-			title: 'Dashboard Análisis Escuelas por estado',
-			publishDate: 'Febrero del 2023',
-			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EqFYbljd1UBOuwBWc4mSqBIBgmwa7pL9fVmMnOq228m3nQ?e=eam7ec',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690663442/Imagenes_Portafolio/proyecto2_dashboard_estudiantes_0_d8tiul.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690663442/Imagenes_Portafolio/proyecto2_dashboard_estudiantes_1_zbok3b.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690663442/Imagenes_Portafolio/proyecto2_dashboard_estudiantes_2_mw0jlk.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar dataset de Escuelas por estado para toma de decisiones',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'PowerBI',
-					],
-				}
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'En este dataset observamos las escuelas que existen en cada municipio y localidad en Mexico; las coordenadas donde quedan estas escuelas; y la cantidad de personal que se tiene por escuela.'
-				}, {
-					id: 2,
-					details:
-						'Observamos el dashboard del proyecto y decimos:'
-				}, {
-					id: 3,
-					details:
-						'- Tenemos la cantidad de escuelas por tipo de escuela, y también el total de escuelas dentro de país.'
-				}, {
-					id: 4,
-					details:
-						'- Tenemos filtros por entidad o localidad, municipio, y por el rango de personal que hay por escuela.'
-				}, {
-					id: 5,
-					details:
-						'- Tenemos un mapa para visualizar de forma dinámica en base a los filtros realizados.'
-				}, {
-					id: 6,
-					details:
-						'Podemos concluir que:'
-				}, {
-					id: 7,
-					details:
-						'- El análisis de este dashboard, nos permite conocer la cantidad apróximada de escuelas por locacalidad, municipio y tipo. Así también conocer la cantidad de personal ocupado que hay por escuela o en un conjunto de escuelas dentro de un municipio o localidad del país.'
-				},
-
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 4,
-		title: 'Dashboard de zonas con más daños por temblor',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-2_eztrvr.png',
-		ProjectHeader: {
-			title: 'Dashboard de zonas con más daños por temblor',
-			publishDate: 'Marzo del 2023',
-			tags: 'PowerBI',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Er8n7PS1Z2dEn1jmgm8I6J4BnrsdXY4_OgKVKdRHDSliKA?e=RXv4ax',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690667823/Imagenes_Portafolio/proyecto3_dashboard_temblores_0_iu7isl.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690667823/Imagenes_Portafolio/proyecto3_dashboard_temblores_2_a2haz1.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690667823/Imagenes_Portafolio/proyecto3_dashboard_temblores_3_thniqf.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar zonas con más daños por temblor para la toma de decisiones.',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'PowerBI',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Observamos el dashboard del proyecto y decimos:'
-				}, {
-					id: 2,
-					details:
-						'- Tenemos un heatmap o mapa de calor que nos indica las zonas de impacto de mayor intesidad y a su vez mayor frencuencia.'
-				}, {
-					id: 3,
-					details:
-						'- Tenemos un TreeMap o Mapa tipo Árbol que nos muestra el recuento de lugar de impacto.'
-				}, {
-					id: 4,
-					details:
-						'- Tenemos un filtro por tipo de daño que interacciona con el HeatMap y TreeMap, para mapear las zonas y el lugar donde más impacto tuvo el temblor.'
-				}, {
-					id: 5,
-					details:
-						'Podemos concluir que:'
-				}, {
-					id: 6,
-					details:
-						'- Las zona con mayores daños del sismo fue al sur de Mexico donde en su mayoría fueron perjudicados departamentos, casa, comercio y edificios.'
-				}
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 5,
-		title: 'Dashboard Análisis de ventas en Australia',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
-		ProjectHeader: {
-			title: 'Dashboard Análisis de ventas en Australia',
-			publishDate: 'Marzo del 2023',
-			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=WWeYHc',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_1_bqij9e.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_2_rfp2rk.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_3_vkler2.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar las ventas de Australia para la toma de decisiones',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Este dataset nos permite conocer las ventas realizadas en Australia por categpria de producto, por fecha, por postcode. En base al postcode conocer el estado del país y el manager. A través de la categoría saber a los buyer person de los productos.'
-				},
-				{
-					id: 2,
-					details:
-						'Observamos el dashboard del proyecto y decimos: '
-				}, {
-					id: 3,
-					details:
-						'- Tenemos un gráfico de barras donde se analiza las ventas por estado (Australia), tipo de cadena(supply chain) y categoría(Category).'
-				}, {
-					id: 4,
-					details:
-						'- Tenemos un gráfico de columnas agrupadas y de líneas donde se analiza las ventas y beneficio bruto(Gross Profit) por fecha (FY Qtr).'
-				}, {
-					id: 5,
-					details:
-						'- Tenemos un gráfico de dispersión donde se analiza las ventas, porcentaje de utilidad y Beneficio bruto(Gross Profit) por Categoría(Category) y por fecha(FY Qrt).'
-				}, {
-					id: 6,
-					details:
-						'- Tenemos un gráfico circular que nos muestras las ventas por tipo de cadena (Supply Chain).'
-				}, {
-					id: 7,
-					details:
-						'Podemos concluir que:'
-				}, {
-					id: 8,
-					details:
-						'- Se realizó un análisis comparativo de las ventas realizadas por fecha, que junto al analisis del beneficio bruto obtenidas podemos concluir que los mayores beneficios se dieron en 2017Q1 y las menores en 2018Q1.'
-				},
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 6,
 		title: 'Dashboard de Producción en Power BI',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-1_hzjwok.png',
@@ -820,7 +414,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 7,
+		id: 4,
 		title: 'Dispositivos MCU programables',
 		category: 'IOT',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679592218/Imagenes_Portafolio/proyecto_iot_kbnych.png',
@@ -933,7 +527,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 8,
+		id: 5,
 		title: 'Sistema de facturas con Macros - Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690275348/Imagenes_Portafolio/proyecto_macros_1_fb0iyc.png',
@@ -1050,7 +644,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 9,
+		id: 6,
 		title: 'Certificaciones Obtenidas',
 		category: 'Certification',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690317596/Imagenes_Portafolio/certificaciones_cursos_ckoomk.png',
@@ -1159,7 +753,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 10,
+		id: 7,
 		title: 'Análisis de data de Producción en Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690340554/Imagenes_Portafolio/proyecto2_dashboard_dbproducci%C3%B3n_idydbs.png',
@@ -1287,7 +881,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 11,
+		id: 8,
 		title: 'Filtro en Excel con Macros',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
@@ -1400,7 +994,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 12,
+		id: 9,
 		title: 'Proyecto Api tipo REST',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
@@ -1517,7 +1111,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 13,
+		id: 10,
 		title: 'Proyecto Ecommerce - Comercial',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-ecommerce-php_dv7gnt.webp',
@@ -1662,7 +1256,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 14,
+		id: 11,
 		title: 'Proyecto Portfolio 2022',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-portfolio-react_pudr7k.webp',
@@ -1773,7 +1367,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 16,
+		id: 12,
 		title: 'Proyecto simulado de Netflix',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
@@ -1889,7 +1483,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 15,
+		id: 13,
 		title: 'Sistema de gestión de ventas',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1685509091/sistema_ventas_ezi3nd.png',
@@ -2047,7 +1641,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 17,
+		id: 14,
 		title: 'Proyecto App de Suplementos',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692823371/Imagenes_Portafolio/app-suplementos_byqzak.png',
@@ -2173,7 +1767,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 18,
+		id: 15,
 		title: 'Proyecto Ejercicios React desde básico a Avanzado',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692836312/Imagenes_Portafolio/app-ejercicios-react-1_fzpdrw.png',
@@ -2290,4 +1884,406 @@ export const projectsData = [
 		}
 	},
 
+
 ];
+
+
+
+// {
+	// id: 99,
+	// title: 'Dashboard Análisis Escuelas por estado',
+	// category: 'Data Analytics',
+	// img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
+	// ProjectHeader: {
+	// 	title: 'Dashboard Análisis Escuelas por estado',
+	// 	publishDate: 'Febrero del 2023',
+	// 	tags: 'Data Analytics',
+	// 	link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EqFYbljd1UBOuwBWc4mSqBIBgmwa7pL9fVmMnOq228m3nQ?e=eam7ec',
+	// },
+	// ProjectImages: [
+	// 	{
+	// 		id: 1,
+	// 		title: '',
+	// 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690663442/Imagenes_Portafolio/proyecto2_dashboard_estudiantes_0_d8tiul.png',
+	// 	},
+	// 	{
+	// 		id: 2,
+	// 		title: '',
+	// 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690663442/Imagenes_Portafolio/proyecto2_dashboard_estudiantes_1_zbok3b.png',
+	// 	},
+	// 	{
+	// 		id: 3,
+	// 		title: '',
+	// 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690663442/Imagenes_Portafolio/proyecto2_dashboard_estudiantes_2_mw0jlk.png',
+	// 	},
+	// ],
+	// ProjectInfo: {
+	// 	ClientHeading: 'Acerca del cliente	',
+	// 	CompanyInfo: [
+	// 		{
+	// 			id: 1,
+	// 			title: 'Nombre',
+	// 			details: 'Proyecto Personal',
+	// 		},
+	// 		{
+	// 			id: 2,
+	// 			title: 'Servicios',
+	// 			details: '-',
+	// 		},
+	// 		{
+	// 			id: 3,
+	// 			title: 'Website',
+	// 			details: '-',
+	// 		},
+	// 		{
+	// 			id: 4,
+	// 			title: 'Celular',
+	// 			details: '-',
+	// 		},
+	// 	],
+	// 	ObjectivesHeading: 'Objetivo',
+	// 	ObjectivesDetails:
+	// 		'Analizar dataset de Escuelas por estado para toma de decisiones',
+	// 	Technologies: [
+	// 		{
+	// 			title: 'Tecnologías usadas',
+	// 			techs: [
+	// 				'PowerBI',
+	// 			],
+	// 		}
+	// 	],
+	// 	ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+	// 	ProjectDetails: [
+	// 		{
+	// 			id: 1,
+	// 			details:
+	// 				'En este dataset observamos las escuelas que existen en cada municipio y localidad en Mexico; las coordenadas donde quedan estas escuelas; y la cantidad de personal que se tiene por escuela.'
+	// 		}, {
+	// 			id: 2,
+	// 			details:
+	// 				'Observamos el dashboard del proyecto y decimos:'
+	// 		}, {
+	// 			id: 3,
+	// 			details:
+	// 				'- Tenemos la cantidad de escuelas por tipo de escuela, y también el total de escuelas dentro de país.'
+	// 		}, {
+	// 			id: 4,
+	// 			details:
+	// 				'- Tenemos filtros por entidad o localidad, municipio, y por el rango de personal que hay por escuela.'
+	// 		}, {
+	// 			id: 5,
+	// 			details:
+	// 				'- Tenemos un mapa para visualizar de forma dinámica en base a los filtros realizados.'
+	// 		}, {
+	// 			id: 6,
+	// 			details:
+	// 				'Podemos concluir que:'
+	// 		}, {
+	// 			id: 7,
+	// 			details:
+	// 				'- El análisis de este dashboard, nos permite conocer la cantidad apróximada de escuelas por locacalidad, municipio y tipo. Así también conocer la cantidad de personal ocupado que hay por escuela o en un conjunto de escuelas dentro de un municipio o localidad del país.'
+	// 		},
+
+
+	// 	],
+	// 	SocialSharingHeading: 'Compartir proyecto',
+	// 	SocialSharing: [
+	// 		{
+	// 			id: 1,
+	// 			name: 'Twitter',
+	// 			icon: <FiTwitter />,
+	// 			url: 'https://twitter.com/',
+	// 		},
+	// 		{
+	// 			id: 2,
+	// 			name: 'Instagram',
+	// 			icon: <FiInstagram />,
+	// 			url: 'https://instagram.com/',
+	// 		},
+	// 		{
+	// 			id: 3,
+	// 			name: 'Facebook',
+	// 			icon: <FiFacebook />,
+	// 			url: 'https://facebook.com/',
+	// 		},
+	// 		{
+	// 			id: 4,
+	// 			name: 'LinkedIn',
+	// 			icon: <FiLinkedin />,
+	// 			url: 'https://linkedin.com/',
+	// 		},
+	// 		{
+	// 			id: 5,
+	// 			name: 'Youtube',
+	// 			icon: <FiYoutube />,
+	// 			url: 'https://www.youtube.com/',
+	// 		},
+	// 	],
+
+	// }
+// },
+// {
+	// id: 100,
+	// 	title: 'Dashboard de zonas con más daños por temblor',
+	// 	category: 'Data Analytics',
+	// 	img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-2_eztrvr.png',
+	// 	ProjectHeader: {
+	// 		title: 'Dashboard de zonas con más daños por temblor',
+	// 		publishDate: 'Marzo del 2023',
+	// 		tags: 'PowerBI',
+	// 		link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Er8n7PS1Z2dEn1jmgm8I6J4BnrsdXY4_OgKVKdRHDSliKA?e=RXv4ax',
+	// 	},
+	// 	ProjectImages: [
+	// 		{
+	// 			id: 1,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690667823/Imagenes_Portafolio/proyecto3_dashboard_temblores_0_iu7isl.png',
+	// 		},
+	// 		{
+	// 			id: 2,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690667823/Imagenes_Portafolio/proyecto3_dashboard_temblores_2_a2haz1.png',
+	// 		},
+	// 		{
+	// 			id: 3,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690667823/Imagenes_Portafolio/proyecto3_dashboard_temblores_3_thniqf.png',
+	// 		},
+	// 	],
+	// 	ProjectInfo: {
+	// 		ClientHeading: 'Acerca del cliente	',
+	// 		CompanyInfo: [
+	// 			{
+	// 				id: 1,
+	// 				title: 'Nombre',
+	// 				details: 'Proyecto Personal',
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				title: 'Servicios',
+	// 				details: '-',
+	// 			},
+	// 			{
+	// 				id: 3,
+	// 				title: 'Website',
+	// 				details: '-',
+	// 			},
+	// 			{
+	// 				id: 4,
+	// 				title: 'Celular',
+	// 				details: '-',
+	// 			},
+	// 		],
+	// 		ObjectivesHeading: 'Objetivo',
+	// 		ObjectivesDetails:
+	// 			'Analizar zonas con más daños por temblor para la toma de decisiones.',
+	// 		Technologies: [
+	// 			{
+	// 				title: 'Tecnologías usadas',
+	// 				techs: [
+	// 					'PowerBI',
+	// 				],
+	// 			},
+	// 		],
+	// 		ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+	// 		ProjectDetails: [
+	// 			{
+	// 				id: 1,
+	// 				details:
+	// 					'Observamos el dashboard del proyecto y decimos:'
+	// 			}, {
+	// 				id: 2,
+	// 				details:
+	// 					'- Tenemos un heatmap o mapa de calor que nos indica las zonas de impacto de mayor intesidad y a su vez mayor frencuencia.'
+	// 			}, {
+	// 				id: 3,
+	// 				details:
+	// 					'- Tenemos un TreeMap o Mapa tipo Árbol que nos muestra el recuento de lugar de impacto.'
+	// 			}, {
+	// 				id: 4,
+	// 				details:
+	// 					'- Tenemos un filtro por tipo de daño que interacciona con el HeatMap y TreeMap, para mapear las zonas y el lugar donde más impacto tuvo el temblor.'
+	// 			}, {
+	// 				id: 5,
+	// 				details:
+	// 					'Podemos concluir que:'
+	// 			}, {
+	// 				id: 6,
+	// 				details:
+	// 					'- Las zona con mayores daños del sismo fue al sur de Mexico donde en su mayoría fueron perjudicados departamentos, casa, comercio y edificios.'
+	// 			}
+
+	// 		],
+	// 		SocialSharingHeading: 'Compartir proyecto',
+	// 		SocialSharing: [
+	// 			{
+	// 				id: 1,
+	// 				name: 'Twitter',
+	// 				icon: <FiTwitter />,
+	// 				url: 'https://twitter.com/',
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				name: 'Instagram',
+	// 				icon: <FiInstagram />,
+	// 				url: 'https://instagram.com/',
+	// 			},
+	// 			{
+	// 				id: 3,
+	// 				name: 'Facebook',
+	// 				icon: <FiFacebook />,
+	// 				url: 'https://facebook.com/',
+	// 			},
+	// 			{
+	// 				id: 4,
+	// 				name: 'LinkedIn',
+	// 				icon: <FiLinkedin />,
+	// 				url: 'https://linkedin.com/',
+	// 			},
+	// 			{
+	// 				id: 5,
+	// 				name: 'Youtube',
+	// 				icon: <FiYoutube />,
+	// 				url: 'https://www.youtube.com/',
+	// 			},
+	// 		],
+
+	// 	}
+	// },
+	// {
+	// 	id: 5,
+	// 	title: 'Dashboard Análisis de ventas en Australia',
+	// 	category: 'Data Analytics',
+	// 	img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
+	// 	ProjectHeader: {
+	// 		title: 'Dashboard Análisis de ventas en Australia',
+	// 		publishDate: 'Marzo del 2023',
+	// 		tags: 'Data Analytics',
+	// 		link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=WWeYHc',
+	// 	},
+	// 	ProjectImages: [
+	// 		{
+	// 			id: 1,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_1_bqij9e.png',
+	// 		},
+	// 		{
+	// 			id: 2,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_2_rfp2rk.png',
+	// 		},
+	// 		{
+	// 			id: 3,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_3_vkler2.png',
+	// 		},
+	// 	],
+	// 	ProjectInfo: {
+	// 		ClientHeading: 'Acerca del cliente	',
+	// 		CompanyInfo: [
+	// 			{
+	// 				id: 1,
+	// 				title: 'Nombre',
+	// 				details: 'Proyecto Personal',
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				title: 'Servicios',
+	// 				details: '-',
+	// 			},
+	// 			{
+	// 				id: 3,
+	// 				title: 'Website',
+	// 				details: '-',
+	// 			},
+	// 			{
+	// 				id: 4,
+	// 				title: 'Celular',
+	// 				details: '-',
+	// 			},
+	// 		],
+	// 		ObjectivesHeading: 'Objetivo',
+	// 		ObjectivesDetails:
+	// 			'Analizar las ventas de Australia para la toma de decisiones',
+	// 		Technologies: [
+	// 			{
+	// 				title: 'Tecnologías usadas',
+	// 				techs: [
+	// 					'',
+	// 				],
+	// 			},
+	// 		],
+	// 		ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+	// 		ProjectDetails: [
+	// 			{
+	// 				id: 1,
+	// 				details:
+	// 					'Este dataset nos permite conocer las ventas realizadas en Australia por categpria de producto, por fecha, por postcode. En base al postcode conocer el estado del país y el manager. A través de la categoría saber a los buyer person de los productos.'
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				details:
+	// 					'Observamos el dashboard del proyecto y decimos: '
+	// 			}, {
+	// 				id: 3,
+	// 				details:
+	// 					'- Tenemos un gráfico de barras donde se analiza las ventas por estado (Australia), tipo de cadena(supply chain) y categoría(Category).'
+	// 			}, {
+	// 				id: 4,
+	// 				details:
+	// 					'- Tenemos un gráfico de columnas agrupadas y de líneas donde se analiza las ventas y beneficio bruto(Gross Profit) por fecha (FY Qtr).'
+	// 			}, {
+	// 				id: 5,
+	// 				details:
+	// 					'- Tenemos un gráfico de dispersión donde se analiza las ventas, porcentaje de utilidad y Beneficio bruto(Gross Profit) por Categoría(Category) y por fecha(FY Qrt).'
+	// 			}, {
+	// 				id: 6,
+	// 				details:
+	// 					'- Tenemos un gráfico circular que nos muestras las ventas por tipo de cadena (Supply Chain).'
+	// 			}, {
+	// 				id: 7,
+	// 				details:
+	// 					'Podemos concluir que:'
+	// 			}, {
+	// 				id: 8,
+	// 				details:
+	// 					'- Se realizó un análisis comparativo de las ventas realizadas por fecha, que junto al analisis del beneficio bruto obtenidas podemos concluir que los mayores beneficios se dieron en 2017Q1 y las menores en 2018Q1.'
+	// 			},
+
+	// 		],
+	// 		SocialSharingHeading: 'Compartir proyecto',
+	// 		SocialSharing: [
+	// 			{
+	// 				id: 1,
+	// 				name: 'Twitter',
+	// 				icon: <FiTwitter />,
+	// 				url: 'https://twitter.com/',
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				name: 'Instagram',
+	// 				icon: <FiInstagram />,
+	// 				url: 'https://instagram.com/',
+	// 			},
+	// 			{
+	// 				id: 3,
+	// 				name: 'Facebook',
+	// 				icon: <FiFacebook />,
+	// 				url: 'https://facebook.com/',
+	// 			},
+	// 			{
+	// 				id: 4,
+	// 				name: 'LinkedIn',
+	// 				icon: <FiLinkedin />,
+	// 				url: 'https://linkedin.com/',
+	// 			},
+	// 			{
+	// 				id: 5,
+	// 				name: 'Youtube',
+	// 				icon: <FiYoutube />,
+	// 				url: 'https://www.youtube.com/',
+	// 			},
+	// 		],
+
+	// 	}
+// }
