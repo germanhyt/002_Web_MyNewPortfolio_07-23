@@ -9,7 +9,7 @@ import {
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Dashboard de Análisis de Ventas en Excel',
+		title: 'Dashboard de Análisis de Ventas - Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974067/Imagenes_Portafolio/proyecto-dashboard-excel_etsclq.webp',
 		ProjectHeader: {
@@ -122,146 +122,7 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'Dashboard Análisis de ventas en sucursales de una empresa',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/001-Ventas_por_sucursal_xamb0g.png',
-		ProjectHeader: {
-			title: 'Dashboard Análisis de ventas',
-			publishDate: 'Febrero del 2023',
-			tags: 'PowerBi',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EmLrPyJACGpDhq_0q8K-fGYBLE73dmyistY5TdRlPHjcIQ?e=wZd0vb',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/003-Ventas_por_sucursal_mzawil.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/002-Ventas_por_sucursal_j98ccc.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/001-Ventas_por_sucursal_xamb0g.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Analizar dataset de ventas para la toma de decisiones',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'PowerBI',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Este dataset muestra las ventas totales por fecha en diferentes sucursales de una empresa; la cantidad de clientes y nro de créditos por fecha; los pagos y adeudo que tienen estos clientes a la empresa por fecha.'
-				}, {
-					id: 1,
-					details:
-						'Observamos el dashboard del proyecto y decimos:'
-				}, {
-					id: 2,
-					details:
-						'- Tenemos un gráfico de líneas que mapea las Ventas Totales por mes y día, ventas que oscilan entre 0 y 300 mil dólares duante el año 2020.'
-				}, {
-					id: 3,
-					details:
-						'- Tenemos un gráfico de barras que mapea las ventas totales por sucursales de la orgaización.'
-				}, {
-					id: 4,
-					details:
-						'- Tenemos un segmentador por mes y sucursal que nos permite filtrar la data en los diferentes gráficos.'
-				}, {
-					id: 5,
-					details:
-						'- Tenemos un gráfico de líneas que muestra el % de adeudo o deudas de clientes a la empresas por mes.'
-				}, {
-					id: 6,
-					details:
-						'- Tenemos labels que muestran los clientes totales, ventas totales, pagos totales, porcentjae de pagos respecto al total de ventas, número de clientes con adeudo o deudas, y total de adeudo actual en los diferentes sucursales.'
-				}, {
-					id: 7,
-					details:
-						'Podemos concluir que:'
-				}, {
-					id: 8,
-					details:
-						'- En conclusión, es fundamental saber que el total de pagos que realizan los clientes a la empresa es mayor que el total de ventas estimado, por lo que el saldo es positivo y el riesgo de tener clientes con adeudo no es tan alto para impactar la rentabilidad.'
-				}
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 3,
-		title: 'Dashboard de Producción en Power BI',
+		title: 'Dashboard de Producción empresarial - Power BI',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-1_hzjwok.png',
 		ProjectHeader: {
@@ -413,8 +274,147 @@ export const projectsData = [
 		}
 	},
 	{
+		id: 3,
+		title: 'Dashboard de ventas en sucursales de una empresa - Power BI',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/001-Ventas_por_sucursal_xamb0g.png',
+		ProjectHeader: {
+			title: 'Dashboard Análisis de ventas',
+			publishDate: 'Febrero del 2023',
+			tags: 'PowerBi',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EmLrPyJACGpDhq_0q8K-fGYBLE73dmyistY5TdRlPHjcIQ?e=wZd0vb',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/003-Ventas_por_sucursal_mzawil.png',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/002-Ventas_por_sucursal_j98ccc.png',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/001-Ventas_por_sucursal_xamb0g.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Analizar dataset de ventas para la toma de decisiones',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'PowerBI',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Este dataset muestra las ventas totales por fecha en diferentes sucursales de una empresa; la cantidad de clientes y nro de créditos por fecha; los pagos y adeudo que tienen estos clientes a la empresa por fecha.'
+				}, {
+					id: 1,
+					details:
+						'Observamos el dashboard del proyecto y decimos:'
+				}, {
+					id: 2,
+					details:
+						'- Tenemos un gráfico de líneas que mapea las Ventas Totales por mes y día, ventas que oscilan entre 0 y 300 mil dólares duante el año 2020.'
+				}, {
+					id: 3,
+					details:
+						'- Tenemos un gráfico de barras que mapea las ventas totales por sucursales de la orgaización.'
+				}, {
+					id: 4,
+					details:
+						'- Tenemos un segmentador por mes y sucursal que nos permite filtrar la data en los diferentes gráficos.'
+				}, {
+					id: 5,
+					details:
+						'- Tenemos un gráfico de líneas que muestra el % de adeudo o deudas de clientes a la empresas por mes.'
+				}, {
+					id: 6,
+					details:
+						'- Tenemos labels que muestran los clientes totales, ventas totales, pagos totales, porcentjae de pagos respecto al total de ventas, número de clientes con adeudo o deudas, y total de adeudo actual en los diferentes sucursales.'
+				}, {
+					id: 7,
+					details:
+						'Podemos concluir que:'
+				}, {
+					id: 8,
+					details:
+						'- En conclusión, es fundamental saber que el total de pagos que realizan los clientes a la empresa es mayor que el total de ventas estimado, por lo que el saldo es positivo y el riesgo de tener clientes con adeudo no es tan alto para impactar la rentabilidad.'
+				}
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	},
+	{
 		id: 4,
-		title: 'Dashboard Análisis de ventas en Australia',
+		title: 'Dashboard Análisis de ventas en Australia - Power BI',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
 		ProjectHeader: {
@@ -551,7 +551,7 @@ export const projectsData = [
 	},
 	{
 		id: 5,
-		title: 'Dispositivos MCU programables',
+		title: 'Dispositivos MCU programables - Cisco (CPT)',
 		category: 'IOT',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679592218/Imagenes_Portafolio/proyecto_iot_kbnych.png',
 		ProjectHeader: {
@@ -781,7 +781,7 @@ export const projectsData = [
 	},
 	{
 		id: 7,
-		title: 'Certificaciones Obtenidas',
+		title: 'Certificaciones Obtenidas - Drive',
 		category: 'Certification',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690317596/Imagenes_Portafolio/certificaciones_cursos_ckoomk.png',
 		ProjectHeader: {
@@ -890,7 +890,7 @@ export const projectsData = [
 	},
 	{
 		id: 8,
-		title: 'Análisis de data de Producción en Excel',
+		title: 'Análisis de data de Producción empresarial - Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690340554/Imagenes_Portafolio/proyecto2_dashboard_dbproducci%C3%B3n_idydbs.png',
 		ProjectHeader: {
@@ -1018,7 +1018,7 @@ export const projectsData = [
 	},
 	{
 		id: 9,
-		title: 'Filtro en Excel con Macros',
+		title: 'Filtro en Excel con Macros - Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
 		ProjectHeader: {
@@ -1131,7 +1131,7 @@ export const projectsData = [
 	},
 	{
 		id: 10,
-		title: 'Proyecto Api tipo REST',
+		title: 'Proyecto Api tipo REST Full - PHP',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
 		ProjectHeader: {
@@ -1248,7 +1248,7 @@ export const projectsData = [
 	},
 	{
 		id: 11,
-		title: 'Proyecto Ecommerce - Comercial',
+		title: 'Proyecto Ecommerce B2C - PHP',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-ecommerce-php_dv7gnt.webp',
 		ProjectHeader: {
@@ -1393,7 +1393,7 @@ export const projectsData = [
 	},
 	{
 		id: 12,
-		title: 'Proyecto Portfolio 2022',
+		title: 'Proyecto Portfolio Versión1 2022 - React',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-portfolio-react_pudr7k.webp',
 		ProjectHeader: {
@@ -1504,7 +1504,7 @@ export const projectsData = [
 	},
 	{
 		id: 13,
-		title: 'Proyecto simulado de Netflix',
+		title: 'Proyecto simulado de Netflix - PHP',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
 		ProjectHeader: {
@@ -1620,7 +1620,7 @@ export const projectsData = [
 	},
 	{
 		id: 14,
-		title: 'Sistema de gestión de ventas',
+		title: 'Sistema de gestión de Ventas e Inventario - PHP',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1685509091/sistema_ventas_ezi3nd.png',
 		ProjectHeader: {
@@ -1778,7 +1778,7 @@ export const projectsData = [
 	},
 	{
 		id: 15,
-		title: 'Proyecto App de Suplementos',
+		title: 'Proyecto App de Venta de Suplementos - MERN',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692823371/Imagenes_Portafolio/app-suplementos_byqzak.png',
 		ProjectHeader: {
