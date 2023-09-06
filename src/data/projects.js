@@ -6,7 +6,6 @@ import {
 	FiYoutube,
 } from 'react-icons/fi';
 
-
 export const projectsData = [
 	{
 		id: 1,
@@ -415,6 +414,143 @@ export const projectsData = [
 	},
 	{
 		id: 4,
+		title: 'Dashboard Análisis de ventas en Australia',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
+		ProjectHeader: {
+			title: 'Dashboard Análisis de ventas en Australia',
+			publishDate: 'Marzo del 2023',
+			tags: 'Data Analytics',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=WWeYHc',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_1_bqij9e.png',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_2_rfp2rk.png',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_3_vkler2.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Analizar las ventas de Australia para la toma de decisiones',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Este dataset nos permite conocer las ventas realizadas en Australia por categpria de producto, por fecha, por postcode. En base al postcode conocer el estado del país y el manager. A través de la categoría saber a los buyer person de los productos.'
+				},
+				{
+					id: 2,
+					details:
+						'Observamos el dashboard del proyecto y decimos: '
+				}, {
+					id: 3,
+					details:
+						'- Tenemos un gráfico de barras donde se analiza las ventas por estado (Australia), tipo de cadena(supply chain) y categoría(Category).'
+				}, {
+					id: 4,
+					details:
+						'- Tenemos un gráfico de columnas agrupadas y de líneas donde se analiza las ventas y beneficio bruto(Gross Profit) por fecha (FY Qtr).'
+				}, {
+					id: 5,
+					details:
+						'- Tenemos un gráfico de dispersión donde se analiza las ventas, porcentaje de utilidad y Beneficio bruto(Gross Profit) por Categoría(Category) y por fecha(FY Qrt).'
+				}, {
+					id: 6,
+					details:
+						'- Tenemos un gráfico circular que nos muestras las ventas por tipo de cadena (Supply Chain).'
+				}, {
+					id: 7,
+					details:
+						'Podemos concluir que:'
+				}, {
+					id: 8,
+					details:
+						'- Se realizó un análisis comparativo de las ventas realizadas por fecha, que junto al analisis del beneficio bruto obtenidas podemos concluir que los mayores beneficios se dieron en 2017Q1 y las menores en 2018Q1.'
+				},
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	},
+	{
+		id: 5,
 		title: 'Dispositivos MCU programables',
 		category: 'IOT',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679592218/Imagenes_Portafolio/proyecto_iot_kbnych.png',
@@ -527,7 +663,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Sistema de facturas con Macros - Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690275348/Imagenes_Portafolio/proyecto_macros_1_fb0iyc.png',
@@ -644,7 +780,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'Certificaciones Obtenidas',
 		category: 'Certification',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690317596/Imagenes_Portafolio/certificaciones_cursos_ckoomk.png',
@@ -753,7 +889,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 7,
+		id: 8,
 		title: 'Análisis de data de Producción en Excel',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690340554/Imagenes_Portafolio/proyecto2_dashboard_dbproducci%C3%B3n_idydbs.png',
@@ -881,7 +1017,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 8,
+		id: 9,
 		title: 'Filtro en Excel con Macros',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
@@ -994,7 +1130,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 9,
+		id: 10,
 		title: 'Proyecto Api tipo REST',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
@@ -1111,7 +1247,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 10,
+		id: 11,
 		title: 'Proyecto Ecommerce - Comercial',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-ecommerce-php_dv7gnt.webp',
@@ -1256,7 +1392,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 11,
+		id: 12,
 		title: 'Proyecto Portfolio 2022',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-portfolio-react_pudr7k.webp',
@@ -1367,7 +1503,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 12,
+		id: 13,
 		title: 'Proyecto simulado de Netflix',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
@@ -1483,7 +1619,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 13,
+		id: 14,
 		title: 'Sistema de gestión de ventas',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1685509091/sistema_ventas_ezi3nd.png',
@@ -1641,7 +1777,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 14,
+		id: 15,
 		title: 'Proyecto App de Suplementos',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692823371/Imagenes_Portafolio/app-suplementos_byqzak.png',
@@ -1767,7 +1903,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 15,
+		id: 16,
 		title: 'Proyecto Ejercicios React desde básico a Avanzado',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692836312/Imagenes_Portafolio/app-ejercicios-react-1_fzpdrw.png',
@@ -1884,13 +2020,12 @@ export const projectsData = [
 		}
 	},
 
-
 ];
 
 
 
-// {
-	// id: 99,
+// { 
+	// id: 99, 
 	// title: 'Dashboard Análisis Escuelas por estado',
 	// category: 'Data Analytics',
 	// img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590099/Imagenes_Portafolio/dashboard-4_cru0l2.png',
@@ -2151,139 +2286,3 @@ export const projectsData = [
 	// 	}
 	// },
 	// {
-	// 	id: 5,
-	// 	title: 'Dashboard Análisis de ventas en Australia',
-	// 	category: 'Data Analytics',
-	// 	img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1679590664/Imagenes_Portafolio/dashboard-5_ouysiv.png',
-	// 	ProjectHeader: {
-	// 		title: 'Dashboard Análisis de ventas en Australia',
-	// 		publishDate: 'Marzo del 2023',
-	// 		tags: 'Data Analytics',
-	// 		link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=WWeYHc',
-	// 	},
-	// 	ProjectImages: [
-	// 		{
-	// 			id: 1,
-	// 			title: '',
-	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_1_bqij9e.png',
-	// 		},
-	// 		{
-	// 			id: 2,
-	// 			title: '',
-	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_2_rfp2rk.png',
-	// 		},
-	// 		{
-	// 			id: 3,
-	// 			title: '',
-	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690742748/Imagenes_Portafolio/proyecto4_dashboard_australia_3_vkler2.png',
-	// 		},
-	// 	],
-	// 	ProjectInfo: {
-	// 		ClientHeading: 'Acerca del cliente	',
-	// 		CompanyInfo: [
-	// 			{
-	// 				id: 1,
-	// 				title: 'Nombre',
-	// 				details: 'Proyecto Personal',
-	// 			},
-	// 			{
-	// 				id: 2,
-	// 				title: 'Servicios',
-	// 				details: '-',
-	// 			},
-	// 			{
-	// 				id: 3,
-	// 				title: 'Website',
-	// 				details: '-',
-	// 			},
-	// 			{
-	// 				id: 4,
-	// 				title: 'Celular',
-	// 				details: '-',
-	// 			},
-	// 		],
-	// 		ObjectivesHeading: 'Objetivo',
-	// 		ObjectivesDetails:
-	// 			'Analizar las ventas de Australia para la toma de decisiones',
-	// 		Technologies: [
-	// 			{
-	// 				title: 'Tecnologías usadas',
-	// 				techs: [
-	// 					'',
-	// 				],
-	// 			},
-	// 		],
-	// 		ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-	// 		ProjectDetails: [
-	// 			{
-	// 				id: 1,
-	// 				details:
-	// 					'Este dataset nos permite conocer las ventas realizadas en Australia por categpria de producto, por fecha, por postcode. En base al postcode conocer el estado del país y el manager. A través de la categoría saber a los buyer person de los productos.'
-	// 			},
-	// 			{
-	// 				id: 2,
-	// 				details:
-	// 					'Observamos el dashboard del proyecto y decimos: '
-	// 			}, {
-	// 				id: 3,
-	// 				details:
-	// 					'- Tenemos un gráfico de barras donde se analiza las ventas por estado (Australia), tipo de cadena(supply chain) y categoría(Category).'
-	// 			}, {
-	// 				id: 4,
-	// 				details:
-	// 					'- Tenemos un gráfico de columnas agrupadas y de líneas donde se analiza las ventas y beneficio bruto(Gross Profit) por fecha (FY Qtr).'
-	// 			}, {
-	// 				id: 5,
-	// 				details:
-	// 					'- Tenemos un gráfico de dispersión donde se analiza las ventas, porcentaje de utilidad y Beneficio bruto(Gross Profit) por Categoría(Category) y por fecha(FY Qrt).'
-	// 			}, {
-	// 				id: 6,
-	// 				details:
-	// 					'- Tenemos un gráfico circular que nos muestras las ventas por tipo de cadena (Supply Chain).'
-	// 			}, {
-	// 				id: 7,
-	// 				details:
-	// 					'Podemos concluir que:'
-	// 			}, {
-	// 				id: 8,
-	// 				details:
-	// 					'- Se realizó un análisis comparativo de las ventas realizadas por fecha, que junto al analisis del beneficio bruto obtenidas podemos concluir que los mayores beneficios se dieron en 2017Q1 y las menores en 2018Q1.'
-	// 			},
-
-	// 		],
-	// 		SocialSharingHeading: 'Compartir proyecto',
-	// 		SocialSharing: [
-	// 			{
-	// 				id: 1,
-	// 				name: 'Twitter',
-	// 				icon: <FiTwitter />,
-	// 				url: 'https://twitter.com/',
-	// 			},
-	// 			{
-	// 				id: 2,
-	// 				name: 'Instagram',
-	// 				icon: <FiInstagram />,
-	// 				url: 'https://instagram.com/',
-	// 			},
-	// 			{
-	// 				id: 3,
-	// 				name: 'Facebook',
-	// 				icon: <FiFacebook />,
-	// 				url: 'https://facebook.com/',
-	// 			},
-	// 			{
-	// 				id: 4,
-	// 				name: 'LinkedIn',
-	// 				icon: <FiLinkedin />,
-	// 				url: 'https://linkedin.com/',
-	// 			},
-	// 			{
-	// 				id: 5,
-	// 				name: 'Youtube',
-	// 				icon: <FiYoutube />,
-	// 				url: 'https://www.youtube.com/',
-	// 			},
-	// 		],
-
-	// 	}
-// }
