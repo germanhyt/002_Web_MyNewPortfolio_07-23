@@ -133,7 +133,7 @@ export const projectsData = [
 		id: 2,
 		title: 'Dashboard Análisis de ventas en sucursales de una empresa',
 		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690656315/Imagenes_Portafolio/proyecto1_dashboard_sucursales_ventas_0_knupy2.png',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/001-Ventas_por_sucursal_xamb0g.png',
 		ProjectHeader: {
 			title: 'Dashboard Análisis de ventas',
 			publishDate: 'Febrero del 2023',
@@ -144,17 +144,17 @@ export const projectsData = [
 			{
 				id: 1,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690656315/Imagenes_Portafolio/proyecto1_dashboard_sucursales_ventas_0_knupy2.png',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/003-Ventas_por_sucursal_mzawil.png',
 			},
 			{
 				id: 2,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690656316/Imagenes_Portafolio/proyecto1_dashboard_sucursales_ventas_1_ksq3kn.png',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/002-Ventas_por_sucursal_j98ccc.png',
 			},
 			{
 				id: 3,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690656315/Imagenes_Portafolio/proyecto1_dashboard_sucursales_ventas_2_czi9us.png',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1693971283/Portfolio_Data-Analytics/001-Ventas_por_sucursal_xamb0g.png',
 			},
 		],
 		ProjectInfo: {
@@ -2243,14 +2243,14 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Esta app se realizó para practicar react desde los conceptos básicos a avanzado, pequeños proyectos que nos permitiràn realizar un proyecto má grande.'
+						'Esta app se realizó para practicar react desde los conceptos básicos a avanzados, pequeños proyectos que nos permitiràn realizar un proyecto más grande.'
 				},
 				{
 					id: 2,
 					details:
 						'Hasta el momento estamos practicando los temas de render, virtual DOM, programación estructurada, programación orientada a objetos, props, hooks (useState, useEffect), mètodos más comunes(map, find, filter, includes), spreadOperator'
 				},
-				
+
 
 			],
 			SocialSharingHeading: 'Compartir proyecto',
