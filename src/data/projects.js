@@ -16,7 +16,7 @@ export const projectsData = [
 			title: 'Dashboard en Excel, Uso de Tablas de datos y tablas dinámicas',
 			publishDate: 'Junio del 2022',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/EYH2rtr_EPdAu0AtOtTOpL0BH_AVKo9hjQQPHW0cPonaAw?e=ywPAom',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Ert6yHiVQ6VKnU3aXuOJhqkBBVNG-i64jkgr9jl3ciy6HA?e=bgRXSZ',
 		},
 		ProjectImages: [
 			{
@@ -129,7 +129,7 @@ export const projectsData = [
 			title: 'Dashboard de Producción según prioridad y tipo de envío',
 			publishDate: 'Febrero del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Eh4v7-o3DG5FlngKtRGRLQEB65M4Hvlrzi5mBo6IV2b5KA?e=13RdXT',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Elhwf09XTYdPgmhXq9iS7esBuq6whqv4lbqu2gXIXMRXQQ?e=hTgSMV',
 		},
 		ProjectImages: [
 			{
@@ -282,7 +282,7 @@ export const projectsData = [
 			title: 'Dashboard Análisis de ventas',
 			publishDate: 'Febrero del 2023',
 			tags: 'PowerBi',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EmLrPyJACGpDhq_0q8K-fGYBLE73dmyistY5TdRlPHjcIQ?e=wZd0vb',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EjZXofo9TkJGhLz0LpAarmYBH3bm-qzB9CIcni9_ImUYfw?e=wYLkGp',
 		},
 		ProjectImages: [
 			{
@@ -421,7 +421,7 @@ export const projectsData = [
 			title: 'Dashboard Análisis de ventas en Australia',
 			publishDate: 'Marzo del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=WWeYHc',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EjqwSI17U-VKhqZ1ryfVLyIBoWadkHmP-9fMfVEGmxPKqA?e=P5nvXY',
 		},
 		ProjectImages: [
 			{
@@ -558,7 +558,7 @@ export const projectsData = [
 			title: 'Dispositivos MCU programables',
 			publishDate: 'Marzo del 2023',
 			tags: 'IOT',
-			link: 'https://unmsmmail-my.sharepoint.com/:u:/g/personal/german_huaytalla_unmsm_edu_pe/EYpkLB46jSNNqBaE29E7DeMBnrsOcgqdcmRyvwE9FXbcTg?e=FnFfOn',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/ElU73D_Ge2xOqBRBwpG8QlgB7YJf6XlaJy3N8fXDM1vYMw?e=WE3XCT',
 		},
 		ProjectImages: [
 			{
@@ -671,7 +671,7 @@ export const projectsData = [
 			title: 'Sistema de Facturación con Macros - Excel',
 			publishDate: 'Julio del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/Eecgl_mnkx1NpZXNFE0JZ7YB2F0ohtyKue9OZCd9sDIxDw?e=8iU1ga',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/ElFUZgWcCXhLrl_giCmcKS8BGiuHaXGbSxr3xlZUGtf-mg?e=sTGo0V',
 		},
 		ProjectImages: [
 			{
@@ -897,7 +897,7 @@ export const projectsData = [
 			title: 'Dashboard de Análisis de data de Producción',
 			publishDate: 'Julio del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/EaF30GMGjvdNkoJ9ZJn7UaoBNgDv8mQWVRpWEVi6tK4KiQ?e=qGz6Fo',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/ElWS-GYGpspMmjgWIYa-Qw8B5y7d9WJKuSkXdUlnJQk1Ag?e=rPX9f0',
 		},
 		ProjectImages: [
 			{
@@ -1018,119 +1018,6 @@ export const projectsData = [
 	},
 	{
 		id: 9,
-		title: 'Filtro en Excel con Macros - Excel',
-		category: 'Data Analytics',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
-		ProjectHeader: {
-			title: 'Filtro en Excel',
-			publishDate: 'Enero del 2023',
-			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/ES2uWCY0SZJGsAcEU_02ptkBukpRaSUHQBm-OqeZohEXkw?e=Mbv72G',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
-			},
-			{
-				id: 2,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
-			},
-			{
-				id: 3,
-				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'Acerca del cliente	',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Nombre',
-					details: 'Proyecto Personal',
-				},
-				{
-					id: 2,
-					title: 'Servicios',
-					details: '-',
-				},
-				{
-					id: 3,
-					title: 'Website',
-					details: '-',
-				},
-				{
-					id: 4,
-					title: 'Celular',
-					details: '-',
-				},
-			],
-			ObjectivesHeading: 'Objetivo',
-			ObjectivesDetails:
-				'Realizar  filtro de datos para encontrar data de forma rápida',
-			Technologies: [
-				{
-					title: 'Tecnologías usadas',
-					techs: [
-						'EXCEL',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						'Es preferible descargar el archivo, ya que el proyecto está hecho en Macros.'
-				}, {
-					id: 2,
-					details:
-						'Este proyecto permite buscar en base a datos de clientes, en base a DNI y Nombre de clientes. Se observa que se carga datos en una hoja de excel, luego se usa macros para realizar un análisis comparativo para filtrar los detalles de un cliente en específico.'
-				},
-
-
-			],
-			SocialSharingHeading: 'Compartir proyecto',
-			SocialSharing: [
-				{
-					id: 1,
-					name: 'Twitter',
-					icon: <FiTwitter />,
-					url: 'https://twitter.com/',
-				},
-				{
-					id: 2,
-					name: 'Instagram',
-					icon: <FiInstagram />,
-					url: 'https://instagram.com/',
-				},
-				{
-					id: 3,
-					name: 'Facebook',
-					icon: <FiFacebook />,
-					url: 'https://facebook.com/',
-				},
-				{
-					id: 4,
-					name: 'LinkedIn',
-					icon: <FiLinkedin />,
-					url: 'https://linkedin.com/',
-				},
-				{
-					id: 5,
-					name: 'Youtube',
-					icon: <FiYoutube />,
-					url: 'https://www.youtube.com/',
-				},
-			],
-
-		}
-	},
-	{
-		id: 10,
 		title: 'Proyecto Api tipo REST Full - PHP',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
@@ -1247,7 +1134,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 11,
+		id: 10,
 		title: 'Proyecto Ecommerce B2C - PHP',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-ecommerce-php_dv7gnt.webp',
@@ -1392,7 +1279,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 12,
+		id: 11,
 		title: 'Proyecto Portfolio Versión1 2022 - React',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-portfolio-react_pudr7k.webp',
@@ -1503,7 +1390,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 13,
+		id: 12,
 		title: 'Proyecto simulado de Netflix - PHP',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
@@ -1619,7 +1506,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 14,
+		id: 13,
 		title: 'Sistema de gestión de Ventas e Inventario - PHP',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1685509091/sistema_ventas_ezi3nd.png',
@@ -1777,7 +1664,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 15,
+		id: 14,
 		title: 'Proyecto App de Venta de Suplementos - MERN',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692823371/Imagenes_Portafolio/app-suplementos_byqzak.png',
@@ -1903,7 +1790,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 16,
+		id: 15,
 		title: 'Proyecto Ejercicios React desde básico a Avanzado',
 		category: 'Web',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1692836312/Imagenes_Portafolio/app-ejercicios-react-1_fzpdrw.png',
@@ -2028,7 +1915,7 @@ export const projectsData = [
 			title: 'Dashboard Análisis de ventas en Australia',
 			publishDate: 'Marzo del 2023',
 			tags: 'Data Analytics',
-			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=WWeYHc',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/EmtjhPZ26WpLu8ipBb1u_D4BJ4otMaF-OW4xCDu-t1QPDQ?e=Ibx5ed',
 		},
 		ProjectImages: [
 			{
@@ -2435,3 +2322,115 @@ export const projectsData = [
 	// 	}
 	// },
 	// {
+	// 	id: 101,
+	// 	title: 'Filtro en Excel con Macros - Excel',
+	// 	category: 'Data Analytics',
+	// 	img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
+	// 	ProjectHeader: {
+	// 		title: 'Filtro en Excel',
+	// 		publishDate: 'Enero del 2023',
+	// 		tags: 'Data Analytics',
+	// 		link: 'https://unmsmmail-my.sharepoint.com/:x:/g/personal/german_huaytalla_unmsm_edu_pe/ES2uWCY0SZJGsAcEU_02ptkBukpRaSUHQBm-OqeZohEXkw?e=Mbv72G',
+	// 	},
+	// 	ProjectImages: [
+	// 		{
+	// 			id: 1,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
+	// 		},
+	// 		{
+	// 			id: 2,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
+	// 		},
+	// 		{
+	// 			id: 3,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-filtro-excel_sfkkpl.png',
+	// 		},
+	// 	],
+	// 	ProjectInfo: {
+	// 		ClientHeading: 'Acerca del cliente	',
+	// 		CompanyInfo: [
+	// 			{
+	// 				id: 1,
+	// 				title: 'Nombre',
+	// 				details: 'Proyecto Personal',
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				title: 'Servicios',
+	// 				details: '-',
+	// 			},
+	// 			{
+	// 				id: 3,
+	// 				title: 'Website',
+	// 				details: '-',
+	// 			},
+	// 			{
+	// 				id: 4,
+	// 				title: 'Celular',
+	// 				details: '-',
+	// 			},
+	// 		],
+	// 		ObjectivesHeading: 'Objetivo',
+	// 		ObjectivesDetails:
+	// 			'Realizar  filtro de datos para encontrar data de forma rápida',
+	// 		Technologies: [
+	// 			{
+	// 				title: 'Tecnologías usadas',
+	// 				techs: [
+	// 					'EXCEL',
+	// 				],
+	// 			},
+	// 		],
+	// 		ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+	// 		ProjectDetails: [
+	// 			{
+	// 				id: 1,
+	// 				details:
+	// 					'Es preferible descargar el archivo, ya que el proyecto está hecho en Macros.'
+	// 			}, {
+	// 				id: 2,
+	// 				details:
+	// 					'Este proyecto permite buscar en base a datos de clientes, en base a DNI y Nombre de clientes. Se observa que se carga datos en una hoja de excel, luego se usa macros para realizar un análisis comparativo para filtrar los detalles de un cliente en específico.'
+	// 			},
+
+
+	// 		],
+	// 		SocialSharingHeading: 'Compartir proyecto',
+	// 		SocialSharing: [
+	// 			{
+	// 				id: 1,
+	// 				name: 'Twitter',
+	// 				icon: <FiTwitter />,
+	// 				url: 'https://twitter.com/',
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				name: 'Instagram',
+	// 				icon: <FiInstagram />,
+	// 				url: 'https://instagram.com/',
+	// 			},
+	// 			{
+	// 				id: 3,
+	// 				name: 'Facebook',
+	// 				icon: <FiFacebook />,
+	// 				url: 'https://facebook.com/',
+	// 			},
+	// 			{
+	// 				id: 4,
+	// 				name: 'LinkedIn',
+	// 				icon: <FiLinkedin />,
+	// 				url: 'https://linkedin.com/',
+	// 			},
+	// 			{
+	// 				id: 5,
+	// 				name: 'Youtube',
+	// 				icon: <FiYoutube />,
+	// 				url: 'https://www.youtube.com/',
+	// 			},
+	// 		],
+
+	// 	}
+	// },
