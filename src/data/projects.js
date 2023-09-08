@@ -2019,6 +2019,155 @@ export const projectsData = [
 
 		}
 	},
+	{
+		id: 17,
+		title: 'Dashboard Análisis Financiero - Power BI',
+		category: 'Data Analytics',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694147649/Portfolio_Data-Analytics/proyecto-financial-data-001_zod3ol.png',
+		ProjectHeader: {
+			title: 'Dashboard Análisis de ventas en Australia',
+			publishDate: 'Marzo del 2023',
+			tags: 'Data Analytics',
+			link: 'https://unmsmmail-my.sharepoint.com/:f:/g/personal/german_huaytalla_unmsm_edu_pe/Et0T_L7lI31KoNX9GioFAw0BrZFMGiSBd3qfo7bCevmBgg?e=WWeYHc',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694147649/Portfolio_Data-Analytics/proyecto-financial-data-001_zod3ol.png',
+			},
+			{
+				id: 2,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694147649/Portfolio_Data-Analytics/proyecto-financial-data-002_etldug.png',
+			},
+			{
+				id: 3,
+				title: '',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694147649/Portfolio_Data-Analytics/proyecto-financial-data-003_dt1kg3.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'Acerca del cliente	',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Proyecto Personal',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: '-',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: '-',
+				},
+				{
+					id: 4,
+					title: 'Celular',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objetivo',
+			ObjectivesDetails:
+				'Analizar las finanzas de una empresa en base a la data Financial_Sample (Microsoft Power BI)',
+			Technologies: [
+				{
+					title: 'Tecnologías usadas',
+					techs: [
+						'',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Este dataset nos permite conocer las ventas y beneficios obtenidos en una empresa, gobierno, mercados, etc. Además nos muestra campos como el nombre de producto, fecha, unidades vendidas, descuento, precio bruto, beneficio, Pais de venta, etc.'
+				},
+				{
+					id: 2,
+					details:
+						'Observamos el dashboard del proyecto y decimos: '
+				}, {
+					id: 3,
+					details:
+						'- Tenemos un gráfico tipo matriz que describe el COGS(Costo de Bienes Vendidos), pocentage de COGS, ventas en base al tipo de segmento empresarial.'
+				}, {
+					id: 4,
+					details:
+						'- Tenemos un gráfico tipo matriz que describe el COGS(Costo de Bienes Vendidos), pocentage de COGS, ventas en base al tipo de producto de venta.'
+				},{
+					id: 5,
+					details:
+						'- Tenemos un gráfico de columnas agrupadas y de líneas donde se analiza los COGS y ventas por fecha(año y mes).'
+				}, {
+					id: 6,
+					details:
+						'- Tenemos un gráfico de Anillos donde se analiza las ventas Totales por tipo de Producto.'
+				}, {
+					id: 7,
+					details:
+						'- Tenemos un gráfico tipo mapa donde se analiza las venta hechas por País.'
+				},{
+					id: 8,
+					details:
+						'- Tenemos dos gráficos tipo tarjeta donde se mustra los resultados de las ventas Totales y el COGS total.'
+				},{
+					id: 9,
+					details:
+						'- Tenemos segmentadores de datos que filtrar datos por Año y mes, estos interactúan con todos los gráficos del dashboard.'
+				},  {
+					id: 8,
+					details:
+						'Podemos concluir que:'
+				}, {
+					id: 9,
+					details:
+						'- Podemos concluir en base al análisis comparativo de ventas realizadas por fecha, que en el año con más ingresos de ventas obtenidas fue 2014 de forma análoga el mes con màs ventas fue en Octubre con 12,38 millones, por otra parte el año con menos ventas fue el 2013 y el mes fue Septiembre con 4,48 millones.'
+				},
+
+			],
+			SocialSharingHeading: 'Compartir proyecto',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Twitter',
+					icon: <FiTwitter />,
+					url: 'https://twitter.com/',
+				},
+				{
+					id: 2,
+					name: 'Instagram',
+					icon: <FiInstagram />,
+					url: 'https://instagram.com/',
+				},
+				{
+					id: 3,
+					name: 'Facebook',
+					icon: <FiFacebook />,
+					url: 'https://facebook.com/',
+				},
+				{
+					id: 4,
+					name: 'LinkedIn',
+					icon: <FiLinkedin />,
+					url: 'https://linkedin.com/',
+				},
+				{
+					id: 5,
+					name: 'Youtube',
+					icon: <FiYoutube />,
+					url: 'https://www.youtube.com/',
+				},
+			],
+
+		}
+	},
 
 ];
 
