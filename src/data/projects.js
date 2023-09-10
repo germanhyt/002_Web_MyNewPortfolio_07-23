@@ -2055,7 +2055,7 @@ export const projectsData = [
 
 		}
 	},
-
+	
 ];
 
 
