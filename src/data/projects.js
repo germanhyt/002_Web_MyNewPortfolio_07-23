@@ -1398,7 +1398,7 @@ export const projectsData = [
 			title: 'Proyecto Ecommerce - Comercial',
 			publishDate: 'Junio del 2022',
 			tags: 'Web',
-			link: 'http://shermandeploy.byethost7.com/',
+			link: 'http://shermandeploy.byethost7.com/Proyecto_Farmacia_ultimate/',
 		},
 		ProjectImages: [
 			{
