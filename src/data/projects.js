@@ -1137,7 +1137,7 @@ export const projectsData = [
 		id: 10,
 		title: 'Proyecto Ecommerce B2C - PHP',
 		category: 'Web',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-ecommerce-php_dv7gnt.webp',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694422631/Imagenes_Portafolio/proeyecto-farmacia-004_ixxg5c.png',
 		ProjectHeader: {
 			title: 'Proyecto Ecommerce - Comercial',
 			publishDate: 'Junio del 2022',
@@ -1282,7 +1282,7 @@ export const projectsData = [
 		id: 11,
 		title: 'Proyecto Portfolio Versión1 2022 - React',
 		category: 'Web',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-portfolio-react_pudr7k.webp',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694422711/Imagenes_Portafolio/proeyecto-portfolio-001_nmpjav.png',
 		ProjectHeader: {
 			title: 'Proyecto Portfolio 2022',
 			publishDate: 'Junio del 2022',
@@ -1391,30 +1391,30 @@ export const projectsData = [
 	},
 	{
 		id: 12,
-		title: 'Proyecto simulado de Netflix - PHP',
+		title: 'Proyecto Ecommerce B2C - PHP',
 		category: 'Web',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694422501/Imagenes_Portafolio/proeyecto-farmacia-004_f80tsl.png',
 		ProjectHeader: {
 			title: 'Proyecto Ecommerce - Comercial',
-			publishDate: 'Febrero del 2022',
+			publishDate: 'Junio del 2022',
 			tags: 'Web',
-			link: 'http://shermandeploy.byethost7.com/Netflix_ultimate/movie.html',
+			link: 'http://shermandeploy.byethost7.com/',
 		},
 		ProjectImages: [
 			{
 				id: 1,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694421306/Imagenes_Portafolio/proeyecto-farmacia-001_az5dtu.png',
 			},
 			{
 				id: 2,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694421306/Imagenes_Portafolio/proeyecto-farmacia-003_snrexx.png',
 			},
 			{
 				id: 3,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694421306/Imagenes_Portafolio/proeyecto-farmacia-002_ilopmu.png',
 			},
 		],
 		ProjectInfo: {
@@ -1443,7 +1443,7 @@ export const projectsData = [
 			],
 			ObjectivesHeading: 'Objetivo',
 			ObjectivesDetails:
-				'Crear una aplicación web para el simular la web de Netflix',
+				'Crear una aplicación web para el incremento de ventas de una microempresa. También poner en práctica los conceptos de programación, patrones de diseño, patrones de arquitectura y metdologías de proyectos.',
 			Technologies: [
 				{
 					title: 'Tecnologías usadas',
@@ -1451,7 +1451,9 @@ export const projectsData = [
 						'HTML',
 						'CSS',
 						'JavaScript',
-						'PHP',
+						'React js',
+						'TailwindCSS',
+						'EmailJs',
 					],
 				},
 			],
@@ -1460,13 +1462,40 @@ export const projectsData = [
 				{
 					id: 1,
 					details:
-						'Credenciales:'
+						'Credenciales de acceso:'
 				},
 				{
 					id: 2,
 					details:
-						'- Rol cliente--> usuario: usuario@gmail.com y password: 123456'
+						'- Rol cliente --> usuario: user01@gmail.com y password: user01'
 				},
+				{
+					id: 4,
+					details:
+						'- Rol Admin --> usuario: admmin@gmail.com y password: admin'
+				},
+				{
+					id: 5,
+					details:
+						'Consideraciones de la aplicación web:'
+				},
+				{
+					id: 6,
+					details:
+						'- El proyecto se trabajó bajo programación estructurada, no se usó un patrón de arquitectura como el MVC por ejemplo. En su lugar fue de patrón libre sin embargo se puede diferenciar la división entre Interfaz, controlador y la conexión a base de datos.'
+				},
+				{
+					id: 7,
+					details:
+						'- Se tiene módulos de interfaz principal, un about-us, Productos, Contacto, órdenes y uno para filtrar productos. Se cuenta un login y registro para el ingreso, esto como prerequisito para el uso de carrito de compras.'
+				},
+				{
+					id: 8,
+					details:
+						'- Como se menciona en el objetivo es una aplicación web orientado al incremento de ventas en una empresa retail cuyos productos sean adecuados para la venta por internet. El modelo de este negocio es B2C dado que está orientado a vender al usuario final.'
+				},
+
+
 
 			],
 			SocialSharingHeading: 'Compartir proyecto',
@@ -1907,7 +1936,7 @@ export const projectsData = [
 		}
 	},
 	{
-		id: 17,
+		id: 16,
 		title: 'Dashboard Análisis Financiero - Power BI',
 		category: 'Data Analytics',
 		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694147649/Portfolio_Data-Analytics/proyecto-financial-data-001_zod3ol.png',
@@ -2396,6 +2425,122 @@ export const projectsData = [
 	// 					'Este proyecto permite buscar en base a datos de clientes, en base a DNI y Nombre de clientes. Se observa que se carga datos en una hoja de excel, luego se usa macros para realizar un análisis comparativo para filtrar los detalles de un cliente en específico.'
 	// 			},
 
+
+	// 		],
+	// 		SocialSharingHeading: 'Compartir proyecto',
+	// 		SocialSharing: [
+	// 			{
+	// 				id: 1,
+	// 				name: 'Twitter',
+	// 				icon: <FiTwitter />,
+	// 				url: 'https://twitter.com/',
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				name: 'Instagram',
+	// 				icon: <FiInstagram />,
+	// 				url: 'https://instagram.com/',
+	// 			},
+	// 			{
+	// 				id: 3,
+	// 				name: 'Facebook',
+	// 				icon: <FiFacebook />,
+	// 				url: 'https://facebook.com/',
+	// 			},
+	// 			{
+	// 				id: 4,
+	// 				name: 'LinkedIn',
+	// 				icon: <FiLinkedin />,
+	// 				url: 'https://linkedin.com/',
+	// 			},
+	// 			{
+	// 				id: 5,
+	// 				name: 'Youtube',
+	// 				icon: <FiYoutube />,
+	// 				url: 'https://www.youtube.com/',
+	// 			},
+	// 		],
+
+	// 	}
+	// },
+	// {
+	// 	id: 102,
+	// 	title: 'Proyecto simulado de Netflix - PHP',
+	// 	category: 'Web',
+	// 	img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+	// 	ProjectHeader: {
+	// 		title: 'Proyecto Ecommerce - Comercial',
+	// 		publishDate: 'Febrero del 2022',
+	// 		tags: 'Web',
+	// 		link: 'http://shermandeploy.byethost7.com/Netflix_ultimate/movie.html',
+	// 	},
+	// 	ProjectImages: [
+	// 		{
+	// 			id: 1,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+	// 		},
+	// 		{
+	// 			id: 2,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+	// 		},
+	// 		{
+	// 			id: 3,
+	// 			title: '',
+	// 			img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/pryecto-netflix-php_jjenyf.webp',
+	// 		},
+	// 	],
+	// 	ProjectInfo: {
+	// 		ClientHeading: 'Acerca del cliente	',
+	// 		CompanyInfo: [
+	// 			{
+	// 				id: 1,
+	// 				title: 'Nombre',
+	// 				details: 'Proyecto Personal',
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				title: 'Servicios',
+	// 				details: '-',
+	// 			},
+	// 			{
+	// 				id: 3,
+	// 				title: 'Website',
+	// 				details: '-',
+	// 			},
+	// 			{
+	// 				id: 4,
+	// 				title: 'Celular',
+	// 				details: '-',
+	// 			},
+	// 		],
+	// 		ObjectivesHeading: 'Objetivo',
+	// 		ObjectivesDetails:
+	// 			'Crear una aplicación web para el simular la web de Netflix',
+	// 		Technologies: [
+	// 			{
+	// 				title: 'Tecnologías usadas',
+	// 				techs: [
+	// 					'HTML',
+	// 					'CSS',
+	// 					'JavaScript',
+	// 					'PHP',
+	// 				],
+	// 			},
+	// 		],
+	// 		ProjectDetailsHeading: 'Datos y Desafíos del Proyecto',
+	// 		ProjectDetails: [
+	// 			{
+	// 				id: 1,
+	// 				details:
+	// 					'Credenciales:'
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				details:
+	// 					'- Rol cliente--> usuario: usuario@gmail.com y password: 123456'
+	// 			},
 
 	// 		],
 	// 		SocialSharingHeading: 'Compartir proyecto',
