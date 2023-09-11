@@ -1137,7 +1137,7 @@ export const projectsData = [
 		id: 10,
 		title: 'Proyecto Ecommerce B2C - PHP',
 		category: 'Web',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694422631/Imagenes_Portafolio/proeyecto-farmacia-004_ixxg5c.png',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694449300/Imagenes_Portafolio/proeyecto-ventas-001_kyc0id.png',
 		ProjectHeader: {
 			title: 'Proyecto Ecommerce - Comercial',
 			publishDate: 'Junio del 2022',
@@ -1148,17 +1148,17 @@ export const projectsData = [
 			{
 				id: 1,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690756431/Imagenes_Portafolio/proyecto_web_ecommerce_3_dfwfav.png',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694449300/Imagenes_Portafolio/proeyecto-ventas-001_kyc0id.png',
 			},
 			{
 				id: 2,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690756431/Imagenes_Portafolio/proyecto_web_ecommerce_2_gox8gu.png',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694449487/Imagenes_Portafolio/proeyecto-ventas-002_cvq1hz.png',
 			},
 			{
 				id: 3,
 				title: '',
-				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1690756431/Imagenes_Portafolio/proyecto_web_ecommerce_1_exhiwg.png',
+				img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694449488/Imagenes_Portafolio/proeyecto-ventas-003_hv63t1.png',
 			},
 		],
 		ProjectInfo: {
