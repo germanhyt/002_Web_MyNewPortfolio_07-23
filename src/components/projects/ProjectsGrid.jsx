@@ -33,7 +33,7 @@ const ProjectsGrid = () => {
                         mb-3
                         "
 				>
-					Buscar proyectos por título o fltrar por categoría
+					Buscar proyectos por título o filtrar por categoría
 				</h3>
 				<div
 					className="
