@@ -2,8 +2,14 @@ import React from 'react'
 
 function Error404() {
     return (
-        <div className='font-bold text-center text-lg'>Error404</div>
+        <>
+            <div className='py-20'>
+                <p className='font-bold text-center text-white text-4xl'>
+                    Error 404
+                </p>
+            </div>
+        </>
     )
 }
 
-export default Error404
+export default Error404;

@@ -19,7 +19,7 @@ function App() {
 
   return (
     <AnimatePresence>
-      <div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
+      <div className="bg-secondary-light dark:bg-primary-dark transition duration-300">
         <Router>
           <ScrollToTop />
           <AppHeader />
