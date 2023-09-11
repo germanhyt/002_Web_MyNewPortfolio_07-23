@@ -1020,7 +1020,7 @@ export const projectsData = [
 		id: 9,
 		title: 'Proyecto Api tipo REST Full - PHP',
 		category: 'Web',
-		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1689974066/Imagenes_Portafolio/proyecto-apirest-php_yicdyh.webp',
+		img: 'https://res.cloudinary.com/dz0ajaf3i/image/upload/v1694450185/Imagenes_Portafolio/proeyecto-api-001_rq4r9r.png',
 		ProjectHeader: {
 			title: 'Proyecto Api tipo REST',
 			publishDate: 'Enero del 2022',
